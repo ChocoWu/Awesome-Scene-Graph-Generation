@@ -77,6 +77,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 
 | Dataset |  Modality  |   Obj. Class  | BBox | Rela. Class | Triplets | Instances | 
 |:--------:|:--------:|:--------:| :--------:|  :--------:|  :--------:|  :--------:|
+| [ReplicaSGG](https://github.com/Howardkhh/ReplicaSSG) | Image, 3D | 34 | - | 8 | - | - |
 | [Visual Phrase](https://vision.cs.uiuc.edu/phrasal/) | Image | 8 | 3,271 | 9 | 1,796 | 2,769 |
 | [Scene Graph](https://openaccess.thecvf.com/content_cvpr_2015/papers/Johnson_Image_Retrieval_Using_2015_CVPR_paper.pdf) | Image | 266 | 69,009 | 68 | 109,535 | 5,000 |
 | [VRD](https://cs.stanford.edu/people/ranjaykrishna/vrd/)  | Image | 100 | - | 70 | 37,993 | 5,000 |
@@ -108,6 +109,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 | [FACTUAL](https://github.com/zhuang-li/FactualSceneGraph) |  Image, Text  | 4,042 | - | 1,607 | 40,149 | 40,369 |
 | [TSG Bench](https://tsg-bench.netlify.app/) |  Text  | - | - | - | 11,820 | 4,289 |
 | [DiscoSG-DS](https://github.com/ShaoqLin/DiscoSG) |  Image, Text  | 4,018 | - | 2,033 | 68,478 | 8,830 |
+| [Open-set Scene Graph](https://github.com/MotoharuSonogashira/open-set-scene-graph-dataset) |  Image  | 150 | - | 50 | - | - |
 </p>
 
 
@@ -254,6 +256,8 @@ There are three subtasks:
 
 + [**Hydra-SGG: Hybrid Relation Assignment for One-stage Scene Graph Generation**](https://arxiv.org/pdf/2409.10262) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() 
 
++ [**Relationship-Aware Unknown Object Detection for Open-Set Scene Graph Generation**](https://ieeexplore.ieee.org/document/10654281)
+
 + [**Adaptive Self-training Framework for Fine-grained Scene Graph Generation**](https://arxiv.org/pdf/2401.09786) [![Paper](https://img.shields.io/badge/ICLR24-696969)]() [![Star](https://img.shields.io/github/stars/rlqja1107/torch-ST-SGG.svg?style=social&label=Star)](https://github.com/rlqja1107/torch-ST-SGG)
 
 + [**Scene Graph Generation Strategy with Co-occurrence Knowledge and Learnable Term Frequency**](https://arxiv.org/pdf/2405.12648) [![Paper](https://img.shields.io/badge/ICML24-FF7F50)]()
@@ -344,6 +348,7 @@ There are three subtasks:
 
 + [**Iterative Scene Graph Generation**](https://proceedings.neurips.cc/paper_files/paper/2022/file/99831104028c3b7e6079fd8bdcc42c8f-Paper-Conference.pdf) [![Paper](https://img.shields.io/badge/NIPS22-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/ubc-vision/IterativeSG.svg?style=social&label=Star)](https://github.com/ubc-vision/IterativeSG)
 
++ [**Towards Open-Set Scene Graph Generation With Unknown Objects**](https://ieeexplore.ieee.org/document/9690166) [![Star](https://img.shields.io/github/stars/KanghoonYoon/hetsgg-torch.svg?style=social&label=Star)](https://github.com/MotoharuSonogashira/open-set-scene-graph-generation)
 
 + [**Unbiased Heterogeneous Scene Graph Generation with Relation-Aware Message Passing Neural Network**](https://ojs.aaai.org/index.php/AAAI/article/view/25435/25207) [![Paper](https://img.shields.io/badge/AAAI22-c71585)]() [![Star](https://img.shields.io/github/stars/KanghoonYoon/hetsgg-torch.svg?style=social&label=Star)](https://github.com/KanghoonYoon/hetsgg-torch)
 
@@ -477,6 +482,8 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 
 ### Non-LLM-based
+
++ [**FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images**](https://projects.howardkhh.net/FROSS/) [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)](https://openaccess.thecvf.com/content/ICCV2025/html/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.html) [![Star](https://img.shields.io/github/stars/XZPKU/TRKT.svg?style=social&label=Star)](https://github.com/Howardkhh/FROSS)
 
 + [**End-to-End Entity-Predicate Association Reasoning for Dynamic Scene Graph Generation**](https://iccv.thecvf.com/virtual/2025/poster/164)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]() 
 
@@ -712,6 +719,10 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 + [**Graph-Based Captioning: Enhancing Visual Descriptions by Interconnecting Region Captions**](https://arxiv.org/pdf/2407.06723) [![Paper](https://img.shields.io/badge/arXiv24-b22222)](https://arxiv.org/pdf/2407.06723) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://huggingface.co/graph-based-captions)<details><summary>Introducing new dataset GBC10M</summary>Humans describe complex scenes with compositionality, using simple text descriptions enriched with links and relationships. While vision-language research has aimed to develop models with compositional understanding capabilities, this is not reflected yet in existing datasets which, for the most part, still use plain text to describe images. In this work, we propose a new annotation strategy, graph-based captioning (GBC) that describes an image using a labelled graph structure, with nodes of various types. We demonstrate that GBC can be produced automatically, using off-the-shelf multimodal LLMs and open-vocabulary detection models, by building a new dataset, GBC10M, gathering GBC annotations for about 10M images of the CC12M dataset</details>
 
++ [**Image-Collection Summarization Using Scene-Graph Generation With External Knowledge**](https://ieeexplore.ieee.org/document/10416832)
+
++ [**An Approach to Generate a Caption for an Image Collection Using Scene Graph Generation**](https://ieeexplore.ieee.org/document/10315005)
+
 + [**Transforming Visual Scene Graphs to Image Captions**](https://aclanthology.org/2023.acl-long.694.pdf) [![Paper](https://img.shields.io/badge/ACL23-191970)]() [![Star](https://img.shields.io/github/stars/GaryJiajia/TSG.svg?style=social&label=Star)](https://github.com/GaryJiajia/TSG)
 
 + [**Cross2StrA: Unpaired Cross-lingual Image Captioning with Cross-lingual Cross-modal Structure-pivoted Alignment**](https://arxiv.org/pdf/2305.12260)  [![Paper](https://img.shields.io/badge/ACL23-191970)]()
@@ -836,8 +847,9 @@ textual features from vision-language models to visual conceptual understanding.
 + [**Multi-modal Situated Reasoning in 3D Scenes**](https://arxiv.org/pdf/2409.02389) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://bobbywu.com/SOKBench/) [![Star](https://img.shields.io/github/stars/MSR3D/MSR3D.svg?style=social&label=Star)](https://github.com/MSR3D/MSR3D) <details><summary>Introducing a large-scale multimodal situated reasoning dataset, scalably collected leveraging 3D scene graphs and vision-language models (VLMs) across a diverse range of real-world 3D scenes</summary>MSQA includes 251K situated question-answering pairs across 9 distinct question categories, covering complex scenarios and object modalities within 3D scenes. We introduce a novel interleaved multi-modal input setting in our benchmark to provide both texts, images, and point clouds for situation and question description, aiming to resolve ambiguity in describing situations with single-modality inputs (\eg, texts).</details>
 
 
+## Anomaly Detection
 
-
++ [**Scene-Specific Anomalous Relationship Detection Using Scene Graph Summarization**](https://openaccess.thecvf.com/content/CVPR2025W/VAND/html/Lai_Scene-Specific_Anomalous_Relationship_Detection_Using_Scene_Graph_Summarization_CVPRW_2025_paper.html) [![Star](https://img.shields.io/github/stars/chancharikmitra/CCoT.svg?style=social&label=Star)](https://github.com/marow17623/SARD?tab=readme-ov-file)
 
 ## Enhanced VLM/MLLM
 
