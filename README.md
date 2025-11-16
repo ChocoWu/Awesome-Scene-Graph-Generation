@@ -802,6 +802,8 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 ## 2D/Video Scene Visual Reasoning
 
++ [**MMGraphRAG: Bridging Vision and Language with Interpretable Multimodal Knowledge Graphs**](https://arxiv.org/pdf/2507.20804) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
+
 + [**Seeing Beyond the Scene: Enhancing Vision-Language Models with Interactional Reasoning**](https://arxiv.org/pdf/2505.09118) [![Paper](https://img.shields.io/badge/MM25-8b4513)]()
 
 
