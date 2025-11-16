@@ -373,7 +373,7 @@ There are three subtasks:
 + [**Visual Distant Supervision for Scene Graph Generation**](https://openaccess.thecvf.com/content/ICCV2021/papers/Yao_Visual_Distant_Supervision_for_Scene_Graph_Generation_ICCV_2021_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV21-2f4f4f)]() [![Star](https://img.shields.io/github/stars/thunlp/VisualDS.svg?style=social&label=Star)](https://github.com/thunlp/VisualDS)
 
 
-+[**Sketching Image Gist: Human-Mimetic Hierarchical Scene Graph Generation**](https://arxiv.org/pdf/2007.08760)
++ [**Sketching Image Gist: Human-Mimetic Hierarchical Scene Graph Generation**](https://arxiv.org/pdf/2007.08760)
 [![Paper](https://img.shields.io/badge/ECCV20-1e90ff)]() [![Star](https://img.shields.io/github/stars/Kenneth-Wong/het-eccv20.svg?style=social&label=Star)](https://github.com/Kenneth-Wong/het-eccv20)
 
 
@@ -413,8 +413,7 @@ There are three subtasks:
 Compared with traditional scene graph, each object is grounded by `a panoptic segmentation mask` in PSG, achieving a compresensive structured scene representation.
 
 + [**SPADE: Spatial-Aware Denoising Network for Open-vocabulary Panoptic Scene Graph Generation with Long- and Local-range Context Reasoning**](https://arxiv.org/pdf/2507.05798) [![Paper](https://img.shields.io/badge/ICCV25-00CED1)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://8078qwe.github.io/SPADE/)
-<details><summary>a novel spatialaware diffusion-based framework for open-vocabulary
-PSG</summary>In this paper, they introduced SPADE, a novel spatialaware diffusion-based framework for open-vocabulary PSG. SPADE addresses the limitations of VLM-based PSG models, particularly their weaknesses in spatial relation reasoning. Our approach consists of two key steps: inversion-guided calibration and spatial-aware context reasoning. First, we fine-tune a pre-trained teacher diffusion model into a PSG-specific denoising network using crossattention maps from inversion, optimized with a lightweight LoRA-based calibration strategy. Second, we introduce a spatial-aware relation graph transformer that captures both local and long-range contextual dependencies, improving relation query generation</details>
+  <details><summary>a novel spatialaware diffusion-based framework for open-vocabulary PSG</summary>In this paper, they introduced SPADE, a novel spatialaware diffusion-based framework for open-vocabulary PSG. SPADE addresses the limitations of VLM-based PSG models, particularly their weaknesses in spatial relation reasoning. Our approach consists of two key steps: inversion-guided calibration and spatial-aware context reasoning. First, we fine-tune a pre-trained teacher diffusion model into a PSG-specific denoising network using crossattention maps from inversion, optimized with a lightweight LoRA-based calibration strategy. Second, we introduce a spatial-aware relation graph transformer that captures both local and long-range contextual dependencies, improving relation query generation</details>
 
 
 + [**Relation-R1: Cognitive Chain-of-Thought Guided Reinforcement Learning for Unified Relational Comprehension**](https://arxiv.org/pdf/2504.14642) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Star](https://img.shields.io/github/stars/HKUST-LongGroup/Relation-R1.svg?style=social&label=Star)](https://github.com/HKUST-LongGroup/Relation-R1)
@@ -483,6 +482,8 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 ### Non-LLM-based
 
++ [**UNO: Unifying One-stage Video Scene Graph Generation via Object-Centric Visual Representation Learning**](https://arxiv.org/pdf/2509.06165) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
+ 
 + [**FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images**](https://projects.howardkhh.net/FROSS/) [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)](https://openaccess.thecvf.com/content/ICCV2025/html/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.html) [![Star](https://img.shields.io/github/stars/XZPKU/TRKT.svg?style=social&label=Star)](https://github.com/Howardkhh/FROSS)
 
 + [**End-to-End Entity-Predicate Association Reasoning for Dynamic Scene Graph Generation**](https://iccv.thecvf.com/virtual/2025/poster/164)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]() 
