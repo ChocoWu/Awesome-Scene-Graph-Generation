@@ -496,6 +496,7 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 + [**Towards Unbiased and Robust Spatio-Temporal Scene Graph Generation and Anticipation**](https://arxiv.org/pdf/2411.13059) [![Paper](https://img.shields.io/badge/CVPR25-8A2BE2)]()  [![Star](https://img.shields.io/github/stars/rohithpeddi/ImparTail.svg?style=social&label=Star)](https://github.com/rohithpeddi/ImparTail)
 
 + [**HyperGLM: HyperGraph for Video Scene Graph Generation and Anticipation**](https://openaccess.thecvf.com/content/CVPR2025/papers/Nguyen_HyperGLM_HyperGraph_for_Video_Scene_Graph_Generation_and_Anticipation_CVPR_2025_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR25-8A2BE2)]()
+  <details><summary>Introduce a unified Hypergraph</summary>The Hypergraph incorporate **entity scene graphs**, which capture spatial relationships between objects, with a **procedural graph** that models their causal transitions across video frames. A novel Video Scene Graph Reasoning (VSGR) dataset, comprising 1.9 million video frames</details>
 
 + [**SAMJAM: Zero-Shot Video Scene Graph Generation for Egocentric Kitchen Videos**](https://arxiv.org/pdf/2504.07867) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
 
@@ -742,6 +743,7 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 
 ## 2D Image Generation
+
 
 + [**Leveraging Panoptic Scene Graph for Evaluating Fine-Grained Text-to-Image Generation**](https://iccv.thecvf.com/virtual/2025/poster/899)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()
 
