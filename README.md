@@ -654,7 +654,7 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 ## Textual Scene Graph Generation
 
-+ [**DiscoSG: Towards Discourse-Level Text Scene Graph Parsing through Iterative Graph Refinement**](https://arxiv.org/abs/2506.15583) ![Paper](https://img.shields.io/badge/arXiv25-b22222) [![Star](https://img.shields.io/github/stars/ShaoqLin/DiscoSG.svg?style=social&label=Star)](https://github.com/ShaoqLin/DiscoSG) 
++ [**DiscoSG: Towards Discourse-Level Text Scene Graph Parsing through Iterative Graph Refinement**](https://arxiv.org/abs/2506.15583) ![Award](https://img.shields.io/badge/EMNLP%202025%20Outstanding%20Paper-b22222) [![Star](https://img.shields.io/github/stars/ShaoqLin/DiscoSG.svg?style=social&label=Star)](https://github.com/ShaoqLin/DiscoSG)
 
 + [**LLM Meets Scene Graph: Can Large Language Models Understand and Generate Scene Graphs? A Benchmark and Empirical Study**](https://arxiv.org/pdf/2505.19510) [![Paper](https://img.shields.io/badge/ACL25-191970)]()  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://tsg-bench.netlify.app/)
 
