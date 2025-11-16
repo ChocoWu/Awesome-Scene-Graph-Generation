@@ -711,6 +711,9 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 ## Image/Video Caption 
 
++ [**PoSh: Using Scene Graphs To Guide LLMs-as-a-Judge For Detailed Image Descriptions**](https://arxiv.org/pdf/2510.19060)  ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/amith-ananthram/posh.svg?style=social&label=Star)](https://github.com/amith-ananthram/posh)
+  <details><summary>Utilize scene graph for image caption evaluation</summary>POSH extracts scene graphs from a generated description and its reference to use as structured rubrics for an LLM to granularly identify mistakes and omissions (see Fig. 2), pinpointing the textual spans containing errors like attribute/relation mis-attachment. Then, it aggregates these localized errors into coarse scores for mistakes, omissions and overall quality. Thus, POSH weds the strengths of structured methods like scene graphs, which reduce descriptions to their consequential visual components, with the strengths of LLMs/VLMs-as-a-Judge, which flexibly compare these visual components against diverse surface realizations.</details>
+
 + [**SC-Captioner: Improving Image Captioning with Self-Correction by Reinforcement Learning**](https://arxiv.org/pdf/2508.06125) ![Paper](https://img.shields.io/badge/ICCV25-2f4f4f) [![Star](https://img.shields.io/github/stars/LuFan31/CompreCap.svg?style=social&label=Star)](https://github.com/zl2048/SC-Captioner)
 
 + [**Fine-Grained Video Captioning through Scene Graph Consolidation**](https://arxiv.org/pdf/2502.16427) ![Paper](https://img.shields.io/badge/arXiv25-b22222)
@@ -835,6 +838,9 @@ textual features from vision-language models to visual conceptual understanding.
 
 ## 3D Scene Visual Reasoning
 
++ [**MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning**](https://arxiv.org/pdf/2509.22281)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/InternRobotics/MesaTask.svg?style=social&label=Star)](https://github.com/InternRobotics/MesaTask) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://mesatask.github.io/)
+ 
+
 + [**FreeQ-Graph: Free-form Querying with Semantic Consistent Scene Graph for 3D Scene Understanding**](https://arxiv.org/pdf/2506.13629) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
 
 
@@ -951,6 +957,10 @@ dataset Visual Genome (VG), from which semantic triplets follow real-world distr
 
 
 ## Dynamic Environment Guidance
+
++ [**GraSP-VLA: Graph-based Symbolic Action Representation for Long-Horizon Planning with VLA Policies**](https://arxiv.org/pdf/2511.04357)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() <details><summary>A Continuous Scene Graph representation</summary>a framework that uses a Continuous Scene Graph representation to generate a symbolic representation of human demonstrations. This representation is used to generate new planning domains during inference and serves as an orchestrator for low-level
+VLA policies, scaling up the number of actions that can be
+reproduced in a row. </details>
 
 + [**Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors Enables Dynamic Scene Understanding**](https://www.arxiv.org/abs/2501.00358)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Star](https://img.shields.io/github/stars/Embodied-VideoAgent/embodied-videoagent.svg?style=social&label=Star)](https://github.com/Embodied-VideoAgent/embodied-videoagent) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)]([real-stanford/semantic-abstraction](https://embodied-videoagent.github.io/))
 
