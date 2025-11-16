@@ -484,7 +484,7 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 + [**UNO: Unifying One-stage Video Scene Graph Generation via Object-Centric Visual Representation Learning**](https://arxiv.org/pdf/2509.06165) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
  
-+ [**FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images**](https://projects.howardkhh.net/FROSS/) [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)](https://openaccess.thecvf.com/content/ICCV2025/html/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.html) [![Star](https://img.shields.io/github/stars/XZPKU/TRKT.svg?style=social&label=Star)](https://github.com/Howardkhh/FROSS)
++ [**FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images**](https://projects.howardkhh.net/FROSS/) [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)](https://openaccess.thecvf.com/content/ICCV2025/html/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.html) [![Star](https://img.shields.io/github/stars/Howardkhh/FROSS.svg?style=social&label=Star)](https://github.com/Howardkhh/FROSS)
 
 + [**End-to-End Entity-Predicate Association Reasoning for Dynamic Scene Graph Generation**](https://iccv.thecvf.com/virtual/2025/poster/164)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]() 
 
@@ -856,6 +856,67 @@ textual features from vision-language models to visual conceptual understanding.
 + [**Multi-modal Situated Reasoning in 3D Scenes**](https://arxiv.org/pdf/2409.02389) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://bobbywu.com/SOKBench/) [![Star](https://img.shields.io/github/stars/MSR3D/MSR3D.svg?style=social&label=Star)](https://github.com/MSR3D/MSR3D) <details><summary>Introducing a large-scale multimodal situated reasoning dataset, scalably collected leveraging 3D scene graphs and vision-language models (VLMs) across a diverse range of real-world 3D scenes</summary>MSQA includes 251K situated question-answering pairs across 9 distinct question categories, covering complex scenarios and object modalities within 3D scenes. We introduce a novel interleaved multi-modal input setting in our benchmark to provide both texts, images, and point clouds for situation and question description, aiming to resolve ambiguity in describing situations with single-modality inputs (\eg, texts).</details>
 
 
+## 3D Scene Generation
+
++ [**Graph-Guided Dual-Level Augmentation for 3D Scene Segmentation**](https://arxiv.org/pdf/2507.22668)  [![Paper](https://img.shields.io/badge/MM25-8b4513)]()
+
++ [**Controllable 3D Outdoor Scene Generation via Scene Graphs**](https://arxiv.org/pdf/2503.07152)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Star](https://img.shields.io/github/stars/yuhengliu02/control-3d-scene.svg?style=social&label=Star)](https://github.com/yuhengliu02/control-3d-scene)
+
+
++ [**Causal Reasoning Elicits Controllable 3D Scene Generation**](https://arxiv.org/pdf/2509.15249) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://causalstruct.github.io/) [![Star](https://img.shields.io/github/stars/gokucs/causalstruct.svg?style=social&label=Star)](https://github.com/gokucs/causalstruct)
+
+
++ [**LLM-driven Indoor Scene Layout Generation via Scaled Human-aligned Data Synthesis and Multi-Stage Preference Optimization**](https://arxiv.org/pdf/2506.07570) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
+
+
++ [**Towards Terrain-Aware Task-Driven 3D Scene Graph Generation in Outdoor Environments**](https://arxiv.org/pdf/2506.06562) [![Paper](https://img.shields.io/badge/ICRA25W-b22222)]()
+
+
++ [**ScanEdit: Hierarchically-Guided Functional 3D Scan Editing**](https://arxiv.org/pdf/2504.15049)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://aminebdj.github.io/scanedit/)
+
+
++ [**Controllable 3D Outdoor Scene Generation via Scene Graphs**](https://arxiv.org/pdf/2503.07152) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://yuheng.ink/project-page/control-3d-scene/) [![Star](https://img.shields.io/github/stars/yuhengliu02/control-3d-scene.svg?style=social&label=Star)](https://github.com/yuhengliu02/control-3d-scene) 
+
+
++ [**MMGDreamer: Mixed-Modality Graph for Geometry-Controllable 3D Indoor Scene Generation**](https://arxiv.org/pdf/2502.05874) [![Paper](https://img.shields.io/badge/AAAI25-191970)]() [![Star](https://img.shields.io/github/stars/yangzhifeio/MMGDreamer.svg?style=social&label=Star)](https://github.com/yangzhifeio/MMGDreamer) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://yangzhifeio.github.io/project/MMGDreamer/)
+
++ [**Toward Scene Graph and Layout Guided Complex 3D Scene Generation**](https://arxiv.org/pdf/2412.20473) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
+
+
++ [**LAYOUTDREAMER: Physics-guided Layout for Text-to-3D Compositional Scene Generation**](https://arxiv.org/pdf/2502.01949) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
+
+
++ [**PhiP-G: Physics-Guided Text-to-3D Compositional Scene Generation**](https://arxiv.org/pdf/2502.00708) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
+
+
++ [**CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image**](https://arxiv.org/pdf/2502.12894) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://sites.google.com/view/cast4)
+
+
++ [**Controllable 3D Outdoor Scene Generation via Scene Graphs**](https://arxiv.org/pdf/2503.07152) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/yuhengliu02/control-3d-scene.svg?style=social&label=Star)](https://github.com/yuhengliu02/control-3d-scene) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://yuheng.ink/project-page/control-3d-scene/)
+
+
++ [**EchoScene: Indoor Scene Generation via Information Echo over Scene Graph Diffusion**](https://arxiv.org/pdf/2405.00915) [![Paper](https://img.shields.io/badge/ECCV24-1e90ff)]() [![Star](https://img.shields.io/github/stars/ymxlzgy/echoscene.svg?style=social&label=Star)](https://github.com/ymxlzgy/echoscene)
+
+
++ [**INSTRUCTLAYOUT: Instruction-Driven 2D and 3D Layout Synthesis with Semantic Graph Prior**](https://arxiv.org/pdf/2407.07580) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
+
+
++ [**Compositional 3D Scene Synthesis with Scene Graph Guided Layout-Shape Generation**](https://arxiv.org/pdf/2403.12848) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
+
+
++ [**Graph Canvas for Controllable 3D Scene Generation**](https://arxiv.org/pdf/2412.00091) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
+
+
++ [**GraphDreamer: Compositional 3D Scene Synthesis from Scene Graphs**](https://arxiv.org/pdf/2312.00093)  [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/GGGHSL/GraphDreamer.svg?style=social&label=Star)](https://github.com/GGGHSL/GraphDreamer) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://graphdreamer.github.io/)
+
+
++ [**CommonScenes: Generating Commonsense 3D Indoor Scenes with Scene Graph Diffusion**](https://proceedings.neurips.cc/paper_files/paper/2023/file/5fba70900a84a8fb755c48ba99420c95-Paper-Conference.pdf)   [![Paper](https://img.shields.io/badge/NIPS23-CD5C5C)]() [![Star](https://img.shields.io/github/stars/ymxlzgy/commonscenes.svg?style=social&label=Star)](https://github.com/ymxlzgy/commonscenes) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://sites.google.com/view/commonscenes)
+
+
++ [**Graph-to-3D: End-to-End Generation and Manipulation of 3D Scenes Using Scene Graphs**](https://openaccess.thecvf.com/content/ICCV2021/papers/Dhamo_Graph-to-3D_End-to-End_Generation_and_Manipulation_of_3D_Scenes_Using_Scene_ICCV_2021_paper.pdf)  [![Paper](https://img.shields.io/badge/ICCV21-2f4f4f)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://he-dhamo.github.io/Graphto3D/)
+
+
+
 ## Anomaly Detection
 
 + [**Scene-Specific Anomalous Relationship Detection Using Scene Graph Summarization**](https://openaccess.thecvf.com/content/CVPR2025W/VAND/html/Lai_Scene-Specific_Anomalous_Relationship_Detection_Using_Scene_Graph_Summarization_CVPRW_2025_paper.html) [![Star](https://img.shields.io/github/stars/chancharikmitra/CCoT.svg?style=social&label=Star)](https://github.com/marow17623/SARD?tab=readme-ov-file)
@@ -894,52 +955,6 @@ textual features from vision-language models to visual conceptual understanding.
 
 + [**Multimodal Relation Extraction with Efficient Graph Alignment**](https://njuhugn.github.io/paper/Multimodal%20Relation%20Extraction%20with%20Efficient%20Graph%20Alignment-Zheng-mm21.pdf) [![Paper](https://img.shields.io/badge/MM21-8b4513)]() [![Star](https://img.shields.io/github/stars/thecharm/Mega.svg?style=social&label=Star)](https://github.com/thecharm/Mega)
 
-
-
-## 3D Scene Generation
-
-+ [**Controllable 3D Outdoor Scene Generation via Scene Graphs**](https://arxiv.org/pdf/2503.07152)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Star](https://img.shields.io/github/stars/yuhengliu02/control-3d-scene.svg?style=social&label=Star)](https://github.com/yuhengliu02/control-3d-scene)
-
-
-+ [**Causal Reasoning Elicits Controllable 3D Scene Generation**](https://arxiv.org/pdf/2509.15249) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://causalstruct.github.io/) [![Star](https://img.shields.io/github/stars/gokucs/causalstruct.svg?style=social&label=Star)](https://github.com/gokucs/causalstruct)
-
-+ [**LLM-driven Indoor Scene Layout Generation via Scaled Human-aligned Data Synthesis and Multi-Stage Preference Optimization**](https://arxiv.org/pdf/2506.07570) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
-
-+ [**Towards Terrain-Aware Task-Driven 3D Scene Graph Generation in Outdoor Environments**](https://arxiv.org/pdf/2506.06562) [![Paper](https://img.shields.io/badge/ICRA25W-b22222)]()
-
-+ [**ScanEdit: Hierarchically-Guided Functional 3D Scan Editing**](https://arxiv.org/pdf/2504.15049)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://aminebdj.github.io/scanedit/)
-
-+ [**Controllable 3D Outdoor Scene Generation via Scene Graphs**](https://arxiv.org/pdf/2503.07152) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://yuheng.ink/project-page/control-3d-scene/) [![Star](https://img.shields.io/github/stars/yuhengliu02/control-3d-scene.svg?style=social&label=Star)](https://github.com/yuhengliu02/control-3d-scene) 
-
-
-
-+ [**MMGDreamer: Mixed-Modality Graph for Geometry-Controllable 3D Indoor Scene Generation**](https://arxiv.org/pdf/2502.05874) [![Paper](https://img.shields.io/badge/AAAI25-191970)]() [![Star](https://img.shields.io/github/stars/yangzhifeio/MMGDreamer.svg?style=social&label=Star)](https://github.com/yangzhifeio/MMGDreamer) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://yangzhifeio.github.io/project/MMGDreamer/)
-
-+ [**Toward Scene Graph and Layout Guided Complex 3D Scene Generation**](https://arxiv.org/pdf/2412.20473) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
-
-+ [**LAYOUTDREAMER: Physics-guided Layout for Text-to-3D Compositional Scene Generation**](https://arxiv.org/pdf/2502.01949) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
-
-+ [**PhiP-G: Physics-Guided Text-to-3D Compositional Scene Generation**](https://arxiv.org/pdf/2502.00708) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
-
-+ [**CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image**](https://arxiv.org/pdf/2502.12894) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://sites.google.com/view/cast4)
-
-+ [**Controllable 3D Outdoor Scene Generation via Scene Graphs**](https://arxiv.org/pdf/2503.07152) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/yuhengliu02/control-3d-scene.svg?style=social&label=Star)](https://github.com/yuhengliu02/control-3d-scene) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://yuheng.ink/project-page/control-3d-scene/)
-
-+ [**EchoScene: Indoor Scene Generation via Information Echo over Scene Graph Diffusion**](https://arxiv.org/pdf/2405.00915) [![Paper](https://img.shields.io/badge/ECCV24-1e90ff)]() [![Star](https://img.shields.io/github/stars/ymxlzgy/echoscene.svg?style=social&label=Star)](https://github.com/ymxlzgy/echoscene)
-
-
-+ [**INSTRUCTLAYOUT: Instruction-Driven 2D and 3D Layout Synthesis with Semantic Graph Prior**](https://arxiv.org/pdf/2407.07580) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
-
-+ [**Compositional 3D Scene Synthesis with Scene Graph Guided Layout-Shape Generation**](https://arxiv.org/pdf/2403.12848) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
-
-+ [**Graph Canvas for Controllable 3D Scene Generation**](https://arxiv.org/pdf/2412.00091) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
-
-+ [**GraphDreamer: Compositional 3D Scene Synthesis from Scene Graphs**](https://arxiv.org/pdf/2312.00093)  [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/GGGHSL/GraphDreamer.svg?style=social&label=Star)](https://github.com/GGGHSL/GraphDreamer) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://graphdreamer.github.io/)
-
-
-+ [**CommonScenes: Generating Commonsense 3D Indoor Scenes with Scene Graph Diffusion**](https://proceedings.neurips.cc/paper_files/paper/2023/file/5fba70900a84a8fb755c48ba99420c95-Paper-Conference.pdf)   [![Paper](https://img.shields.io/badge/NIPS23-CD5C5C)]() [![Star](https://img.shields.io/github/stars/ymxlzgy/commonscenes.svg?style=social&label=Star)](https://github.com/ymxlzgy/commonscenes) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://sites.google.com/view/commonscenes)
-
-+ [**Graph-to-3D: End-to-End Generation and Manipulation of 3D Scenes Using Scene Graphs**](https://openaccess.thecvf.com/content/ICCV2021/papers/Dhamo_Graph-to-3D_End-to-End_Generation_and_Manipulation_of_3D_Scenes_Using_Scene_ICCV_2021_paper.pdf)  [![Paper](https://img.shields.io/badge/ICCV21-2f4f4f)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://he-dhamo.github.io/Graphto3D/)
 
 
 
