@@ -975,6 +975,9 @@ dataset Visual Genome (VG), from which semantic triplets follow real-world distr
 
 ## Dynamic Environment Guidance
 
++ [**Hi-Dyna Graph: Hierarchical Dynamic Scene Graph for Robotic Autonomy in Human-Centric Environments**](https://arxiv.org/pdf/2506.00083) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() <details><summary>hierarchical dynamic scene graph (Hi-Dyna Graph)</summary>The global static scene graph captures persistent environmental semantics and represents the layout structures through vertices and edges.Local dynamic subgraphs are built and updated incrementally from video streams. The video could come from an environmental camera or an embodied one whose global pose is available. To empower the dynamic graphs with global layouts and introduce dynamics into global graph, we
+anchor local dynamic graphs Gd to global static graph.</details>
+
 + [**GraSP-VLA: Graph-based Symbolic Action Representation for Long-Horizon Planning with VLA Policies**](https://arxiv.org/pdf/2511.04357)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() <details><summary>A Continuous Scene Graph representation</summary>a framework that uses a Continuous Scene Graph representation to generate a symbolic representation of human demonstrations. This representation is used to generate new planning domains during inference and serves as an orchestrator for low-level
 VLA policies, scaling up the number of actions that can be
 reproduced in a row. </details>
