@@ -134,7 +134,7 @@ Here, we provide some toolkits for parsing scene graphs or other useful tools fo
 
 <!-- CVPR-8A2BE2 -->
 <!-- WACV-6a5acd -->
-<!-- NIPS-CD5C5C -->
+<!-- NIPS-CD5C5C2 -->
 <!-- ICML-FF7F50 -->
 <!-- ICCV-00CED1 -->
 <!-- ECCV-1e90ff -->
@@ -184,7 +184,7 @@ There are three subtasks:
 + [**Scene Graph Generation Strategy with Co-occurrence Knowledge and Learnable Term Frequency**](https://arxiv.org/pdf/2405.12648) [![Paper](https://img.shields.io/badge/ICML24-FF7F50)]() 
 
 
-+ [**Scene Graph Generation with Role-Playing Large Language Models**](https://arxiv.org/pdf/2410.15364) [![Paper](https://img.shields.io/badge/NIPS24-CD5C5C)]() 
++ [**Scene Graph Generation with Role-Playing Large Language Models**](https://arxiv.org/pdf/2410.15364) [![Paper](https://img.shields.io/badge/NIPS24-CD5C5C2)]() 
 
 + [**SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding**](https://arxiv.org/pdf/2406.10100) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/Luo-Z13/SkySenseGPT.svg?style=social&label=Star)](https://github.com/Luo-Z13/SkySenseGPT) 
 
@@ -209,6 +209,8 @@ There are three subtasks:
 
 
 ### Non-LLM-based
+
++ [**Interaction-Centric Knowledge Infusion and Transfer for Open-Vocabulary Scene Graph Generation**](https://arxiv.org/pdf/2511.05935) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]()  
 
 + [**Vision-Language Interactive Relation Mining for Open-Vocabulary Scene Graph Generation**](https://iccv.thecvf.com/virtual/2025/poster/267)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]() 
 
@@ -467,6 +469,9 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 ### LLM-based 
 
++ [**ESCA: Contextualizing Embodied Agents via Scene-Graph Generation**](https://arxiv.org/pdf/2510.15963) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/video-fm/ESCA.svg?style=social&label=Star)](https://github.com/video-fm/ESCA)
+
++ [**LASER: A Neuro-Symbolic Framework for Learning Spatial-Temporal Scene Graphs with Weak Supervision**](https://arxiv.org/pdf/2304.07647)  [![Paper](https://img.shields.io/badge/ICLR25-696969)]()  [![Star](https://img.shields.io/github/stars/video-fm/LASER.svg?style=social&label=Star)](https://github.com/video-fm/LASER)
 
 + [**What can Off-the-Shelves Large Multi-Modal Models do for Dynamic Scene Graph Generation?**](https://arxiv.org/pdf/2503.15846) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
 
@@ -575,6 +580,7 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 Given a 3D point cloud $P \in R^{N×3}$ consisting of $N$ points, we assume there is a set of class-agnostic instance masks $M = \{M_1, ..., M_K\}$ corresponding to $K$ entities in $P$, `3D Scene Graph Generation` aims to map the input 3D point cloud to a reliable semantically structured scene graph $G = \{O, R\}$. 
 Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
++ [**Object-Centric Representation Learning for Enhanced 3D Scene Graph Prediction**](https://openreview.net/pdf?id=LjmXrUsSrg) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/VisualScienceLab-KHU/OCRL-3DSSG-Codes.svg?style=social&label=Star)](https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes)
 
 + [**Statistical Confidence Rescoring for Robust 3D Scene Graph Generation from Multi-View Images**](https://arxiv.org/pdf/2508.06546)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://qixun1.github.io/projects/SCRSSG/)
 
