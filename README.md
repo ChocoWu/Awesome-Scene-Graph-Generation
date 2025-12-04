@@ -6,6 +6,9 @@
 # 📣 News
 - ✨✨✨We are organizing a **WACV26 Workshop** on [Scene Graph for Structured Intelligence](https://scene-graph.github.io/SG4SI-WACV26/), welcome submission.
 
+  - [`Call for New Submission`](https://openreview.net/group?id=thecvf.com/WACV/2026/Workshop/SG4SI).
+  - `Call for Presentations` of papers already accepted either in WACV or other conferences. Please include supplementary proof of acceptance (e.g., decision letter or reviews).
+
 
 - We're excited to introduce a new section:🔥 Hot Topics 🔥!
 
@@ -19,6 +22,8 @@
   Scene graphs are a form of explicit scene representation. But with the rise of implicit scene representations, is this approach still effective? Which representation is more promising moving forward?
 
 - [**Can we define the scene-level for a scene graph?**](https://github.com/ChocoWu/Awesome-Scene-Graph-Generation/issues/12)
+
+- [**Insights on open-source codebases and new directions for the field of SGG**](https://github.com/ChocoWu/Awesome-Scene-Graph-Generation/issues/16)
 
 Let us know what you think in the [discussion thread](https://github.com/ChocoWu/Awesome-Scene-Graph-Generation/issues/7)!
 
