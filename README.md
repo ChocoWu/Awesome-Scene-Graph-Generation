@@ -217,7 +217,7 @@ There are three subtasks:
 
 + [**Interaction-Centric Knowledge Infusion and Transfer for Open-Vocabulary Scene Graph Generation**](https://arxiv.org/pdf/2511.05935) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]()  
 
-+ [**Vision-Language Interactive Relation Mining for Open-Vocabulary Scene Graph Generation**](https://iccv.thecvf.com/virtual/2025/poster/267)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]() 
++ [**Vision-Language Interactive Relation Mining for Open-Vocabulary Scene Graph Generation**](https://openaccess.thecvf.com/content/ICCV2025/papers/Min_Vision-Language_Interactive_Relation_Mining_for_Open-Vocabulary_Scene_Graph_Generation_ICCV_2025_paper.pdf)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Star](https://img.shields.io/github/stars/myukzzz/VL-IRM.svg?style=social&label=Star)](https://github.com/myukzzz/VL-IRM)
 
 
 + [**Hybrid Reciprocal Transformer with Triplet Feature Alignment for Scene Graph Generation**](https://openaccess.thecvf.com/content/CVPR2025/papers/Fu_Hybrid_Reciprocal_Transformer_with_Triplet_Feature_Alignment_for_Scene_Graph_CVPR_2025_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR25-8A2BE2)]()  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://hq-sg.github.io/)
@@ -494,9 +494,9 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 + [**UNO: Unifying One-stage Video Scene Graph Generation via Object-Centric Visual Representation Learning**](https://arxiv.org/pdf/2509.06165) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
  
-+ [**FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images**](https://projects.howardkhh.net/FROSS/) [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)](https://openaccess.thecvf.com/content/ICCV2025/html/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.html) [![Star](https://img.shields.io/github/stars/Howardkhh/FROSS.svg?style=social&label=Star)](https://github.com/Howardkhh/FROSS)
++ [**FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images**](https://openaccess.thecvf.com/content/ICCV2025/papers/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)](https://openaccess.thecvf.com/content/ICCV2025/html/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.html) [![Star](https://img.shields.io/github/stars/Howardkhh/FROSS.svg?style=social&label=Star)](https://github.com/Howardkhh/FROSS)
 
-+ [**End-to-End Entity-Predicate Association Reasoning for Dynamic Scene Graph Generation**](https://iccv.thecvf.com/virtual/2025/poster/164)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]() 
++ [**End-to-End Entity-Predicate Association Reasoning for Dynamic Scene Graph Generation**](https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_End-to-End_Entity-Predicate_Association_Reasoning_for_Dynamic_Scene_Graph_Generation_ICCV_2025_paper.pdf)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Star](https://img.shields.io/github/stars/wlw951226/ARN.svg?style=social&label=Star)](https://github.com/wlw951226/ARN)
 
 
 + [**TRKT:Weakly Supervised Dynamic Scene Graph Generation with Temporal-enhanced Relation-aware Knowledge Transferring**](https://arxiv.org/pdf/2508.04943) [![Paper](https://img.shields.io/badge/ICCV25-00CED1)]() [![Star](https://img.shields.io/github/stars/XZPKU/TRKT.svg?style=social&label=Star)](https://github.com/XZPKU/TRKT)
@@ -759,9 +759,9 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 ## 2D Image Generation
 
 
-+ [**Leveraging Panoptic Scene Graph for Evaluating Fine-Grained Text-to-Image Generation**](https://iccv.thecvf.com/virtual/2025/poster/899)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()
++ [**Leveraging Panoptic Scene Graph for Evaluating Fine-Grained Text-to-Image Generation**](https://openaccess.thecvf.com/content/ICCV2025/papers/Deng_Leveraging_Panoptic_Scene_Graph_for_Evaluating_Fine-Grained_Text-to-Image_Generation_ICCV_2025_paper.pdf)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()
 
-+ [**Scene Graph Guided Generation: Enable Accurate Relations Generation in Text-to-Image Models via Textural Rectification**](https://iccv.thecvf.com/virtual/2025/poster/1560)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]() 
++ [**Scene Graph Guided Generation: Enable Accurate Relations Generation in Text-to-Image Models via Textural Rectification**](https://openaccess.thecvf.com/content/ICCV2025/papers/Shen_Scene_Graph_Guided_Generation_Enable_Accurate_Relations_Generation_in_Text-to-Image_ICCV_2025_paper.pdf)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]() 
 
 + [**SurGrID: Controllable Surgical Simulation via Scene Graph to Image Diffusion**](https://arxiv.org/pdf/2502.07945) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
 
@@ -812,6 +812,9 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 
 ## 2D/Video Scene Visual Reasoning
+
++ [**Measuring Epistemic Humility in Multimodal Large Language Models**](https://arxiv.org/pdf/2509.09658) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Star](https://img.shields.io/github/stars/maifoundations/HumbleBench.svg?style=social&label=Star)](https://github.com/maifoundations/HumbleBench)
+  <details><summary>Introduce a HumbleBench, a new hallucination benchmark</summary>Existing works overlook an  equally critical capabilty for trustworthy AI: recognizing when none pf the provided options are correct, a behavior reflecting epistemic humility. The introduced benchmark is designed to evaluate MLLMs’ ability to reject plausible but incorrect answers across three hallucination types: object, relation, and attribute. Built from a panoptic scene graph dataset, we leverage fine-grained scene graph annotations to extract ground-truth entities and relations, and prompt GPT-4-Turbo to generate multiple-choice questions, followed by a rigorous manual filtering process. </details>
 
 + [**MMGraphRAG: Bridging Vision and Language with Interpretable Multimodal Knowledge Graphs**](https://arxiv.org/pdf/2507.20804) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
 
@@ -871,6 +874,9 @@ textual features from vision-language models to visual conceptual understanding.
 
 ## 3D Scene Generation
 
++ [**MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning**](https://arxiv.org/pdf/2509.22281) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://mesatask.github.io/) [![Star](https://img.shields.io/github/stars/InternRobotics/MesaTask.svg?style=social&label=Star)](https://github.com/InternRobotics/MesaTask)
+  <details><summary>Scene graph guided the generation of 3D layouts and used for dataset construction.</summary><details>
+
 + [**Graph-Guided Dual-Level Augmentation for 3D Scene Segmentation**](https://arxiv.org/pdf/2507.22668)  [![Paper](https://img.shields.io/badge/MM25-8b4513)]()
 
 + [**Controllable 3D Outdoor Scene Generation via Scene Graphs**](https://arxiv.org/pdf/2503.07152)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Star](https://img.shields.io/github/stars/yuhengliu02/control-3d-scene.svg?style=social&label=Star)](https://github.com/yuhengliu02/control-3d-scene)
@@ -878,6 +884,7 @@ textual features from vision-language models to visual conceptual understanding.
 
 + [**Causal Reasoning Elicits Controllable 3D Scene Generation**](https://arxiv.org/pdf/2509.15249) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://causalstruct.github.io/) [![Star](https://img.shields.io/github/stars/gokucs/causalstruct.svg?style=social&label=Star)](https://github.com/gokucs/causalstruct)
 
++ [**HiGS: Hierarchical Generative Scene Framework for Multi-Step Associative Semantic Spatial Composition**](https://arxiv.org/pdf/2510.27148)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
 
 + [**LLM-driven Indoor Scene Layout Generation via Scaled Human-aligned Data Synthesis and Multi-Stage Preference Optimization**](https://arxiv.org/pdf/2506.07570) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
 
@@ -989,9 +996,7 @@ dataset Visual Genome (VG), from which semantic triplets follow real-world distr
 + [**Hi-Dyna Graph: Hierarchical Dynamic Scene Graph for Robotic Autonomy in Human-Centric Environments**](https://arxiv.org/pdf/2506.00083) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() <details><summary>hierarchical dynamic scene graph (Hi-Dyna Graph)</summary>The global static scene graph captures persistent environmental semantics and represents the layout structures through vertices and edges.Local dynamic subgraphs are built and updated incrementally from video streams. The video could come from an environmental camera or an embodied one whose global pose is available. To empower the dynamic graphs with global layouts and introduce dynamics into global graph, we
 anchor local dynamic graphs Gd to global static graph.</details>
 
-+ [**GraSP-VLA: Graph-based Symbolic Action Representation for Long-Horizon Planning with VLA Policies**](https://arxiv.org/pdf/2511.04357)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() <details><summary>A Continuous Scene Graph representation</summary>a framework that uses a Continuous Scene Graph representation to generate a symbolic representation of human demonstrations. This representation is used to generate new planning domains during inference and serves as an orchestrator for low-level
-VLA policies, scaling up the number of actions that can be
-reproduced in a row. </details>
++ [**GraSP-VLA: Graph-based Symbolic Action Representation for Long-Horizon Planning with VLA Policies**](https://arxiv.org/pdf/2511.04357)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() <details><summary>A Continuous Scene Graph representation</summary>a framework that uses a Continuous Scene Graph representation to generate a symbolic representation of human demonstrations. This representation is used to generate new planning domains during inference and serves as an orchestrator for low-level VLA policies, scaling up the number of actions that can be reproduced in a row. </details>
 
 + [**Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors Enables Dynamic Scene Understanding**](https://www.arxiv.org/abs/2501.00358)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Star](https://img.shields.io/github/stars/Embodied-VideoAgent/embodied-videoagent.svg?style=social&label=Star)](https://github.com/Embodied-VideoAgent/embodied-videoagent) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)]([real-stanford/semantic-abstraction](https://embodied-videoagent.github.io/))
 
