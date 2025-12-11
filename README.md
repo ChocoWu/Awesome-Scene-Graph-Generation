@@ -6,6 +6,7 @@
 # 📣 News
 - ✨✨✨We are organizing a **WACV26 Workshop** on [Scene Graph for Structured Intelligence](https://scene-graph.github.io/SG4SI-WACV26/), welcome submission.
 
+  - The submission deadline is extended to `20th Dec. 2026` (**finalized and fixed**).
   - [`Call for New Submission`](https://openreview.net/group?id=thecvf.com/WACV/2026/Workshop/SG4SI).
   - `Call for Presentations` of papers already accepted either in WACV or other conferences. Please include supplementary proof of acceptance (e.g., decision letter or reviews).
 
