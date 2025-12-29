@@ -498,6 +498,8 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 + [**OmniRe: Omni Urban Scene Reconstruction**](https://arxiv.org/pdf/2408.16760) [![Paper](https://img.shields.io/badge/ICLR25-696969)]() [![Star](https://img.shields.io/github/stars/ziyc/drivestudio.svg?style=social&label=Star)](https://github.com/ziyc/drivestudio)   [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://ziyc.github.io/omnire/)
   <details><summary>Introduce Gaussian Scene Graph</summary>To allow for flexible control of diverse movable objects in the scene without sacrificing reconstruction quality, we opt for a Gaussian Scene Graph representation. Our scene graph is composed of the following nodes: (1) a Sky Node representing the sky that is far away from the ego-car, (2) a Background Node representing the static scene background such as buildings, roads, and vegetation, (3) a set of Rigid Nodes, each representing a rigidly movable object such as a vehicle, (4) a set of Non-rigid Nodes that model non-rigid individuals, e.g. pedestrians and cyclists. Nodes of type (2,3,4) can be converted directly into world-space Gaussians which we will introduce next. </details>
 
++ [**RS-Net: Context-Aware Relation Scoring for Dynamic Scene Graph Generation**](https://arxiv.org/pdf/2511.08651) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  
+
 + [**UNO: Unifying One-stage Video Scene Graph Generation via Object-Centric Visual Representation Learning**](https://arxiv.org/pdf/2509.06165) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  
  
 + [**FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images**](https://openaccess.thecvf.com/content/ICCV2025/papers/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)](https://openaccess.thecvf.com/content/ICCV2025/html/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.html) [![Star](https://img.shields.io/github/stars/Howardkhh/FROSS.svg?style=social&label=Star)](https://github.com/Howardkhh/FROSS)
@@ -839,8 +841,6 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 + [**MMGraphRAG: Bridging Vision and Language with Interpretable Multimodal Knowledge Graphs**](https://arxiv.org/pdf/2507.20804) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
 
-+ [**Seeing Beyond the Scene: Enhancing Vision-Language Models with Interactional Reasoning**](https://arxiv.org/pdf/2505.09118) [![Paper](https://img.shields.io/badge/MM25-8b4513)]()
-
 
 + [**A Schema-Guided Reason-while-Retrieve framework for Reasoning on Scene Graphs with Large-Language-Models (LLMs)**](https://arxiv.org/pdf/2502.03450) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
 
@@ -848,6 +848,10 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 
 + [**A Schema-Guided Reason-while-Retrieve framework for Reasoning on Scene Graphs with Large-Language-Models (LLMs)**](https://arxiv.org/pdf/2502.03450) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
+
++ [**Seeing Beyond the Scene: Enhancing Vision-Language Models with Interactional Reasoning**](https://arxiv.org/pdf/2505.09118) [![Paper](https://img.shields.io/badge/MM25-8b4513)]()
+
++ [**SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards**](https://arxiv.org/pdf/2511.07403) [![Paper](https://img.shields.io/badge/NIPSW25-CD5C5C)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://hunarbatra.com/SpatialThinker/) [![Star](https://img.shields.io/github/stars/hunarbatra/SpatialThinker.svg?style=social&label=Star)](https://github.com/hunarbatra/SpatialThinker) 
 
 
 + [**STEP: Enhancing Video-LLMs’ Compositional Reasoning by Spatio-Temporal Graph-guided Self-Training**](https://arxiv.org/pdf/2412.00161) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
@@ -906,6 +910,8 @@ textual features from vision-language models to visual conceptual understanding.
 + [**Causal Reasoning Elicits Controllable 3D Scene Generation**](https://arxiv.org/pdf/2509.15249) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://causalstruct.github.io/) [![Star](https://img.shields.io/github/stars/gokucs/causalstruct.svg?style=social&label=Star)](https://github.com/gokucs/causalstruct)
 
 + [**HiGS: Hierarchical Generative Scene Framework for Multi-Step Associative Semantic Spatial Composition**](https://arxiv.org/pdf/2510.27148)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
+
++ [**GeoSceneGraph: Geometric Scene Graph Diffusion Model for Text-guided 3D Indoor Scene Synthesis**](https://arxiv.org/pdf/2511.14884)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
 
 + [**LLM-driven Indoor Scene Layout Generation via Scaled Human-aligned Data Synthesis and Multi-Stage Preference Optimization**](https://arxiv.org/pdf/2506.07570) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
 
@@ -1018,6 +1024,8 @@ dataset Visual Genome (VG), from which semantic triplets follow real-world distr
 anchor local dynamic graphs Gd to global static graph.</details>
 
 + [**GraSP-VLA: Graph-based Symbolic Action Representation for Long-Horizon Planning with VLA Policies**](https://arxiv.org/pdf/2511.04357)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() <details><summary>A Continuous Scene Graph representation</summary>a framework that uses a Continuous Scene Graph representation to generate a symbolic representation of human demonstrations. This representation is used to generate new planning domains during inference and serves as an orchestrator for low-level VLA policies, scaling up the number of actions that can be reproduced in a row. </details>
+
++ [**Open-World 3D Scene Graph Generation for Retrieval-Augmented Reasoning**](https://arxiv.org/pdf/2511.05894) [![Paper](https://img.shields.io/badge/AAAI25-191970)]() 
 
 + [**Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors Enables Dynamic Scene Understanding**](https://www.arxiv.org/abs/2501.00358)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Star](https://img.shields.io/github/stars/Embodied-VideoAgent/embodied-videoagent.svg?style=social&label=Star)](https://github.com/Embodied-VideoAgent/embodied-videoagent) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)]([real-stanford/semantic-abstraction](https://embodied-videoagent.github.io/))
 
