@@ -17,7 +17,7 @@
 
   I'll also be collecting and sharing thought-provoking questions related to the future of scene graphs and scene understanding in general. Everyone is welcome to join the conversation!
 
-## 🔍 First Topic:
+## 🔍 Recent Topics:
 - [**"Are scene graphs still a good way to represent and understand scenes?"**](https://github.com/ChocoWu/Awesome-Scene-Graph-Generation/issues/7)
   
   Scene graphs are a form of explicit scene representation. But with the rise of implicit scene representations, is this approach still effective? Which representation is more promising moving forward?
@@ -107,6 +107,8 @@ In this graph, the nodes correspond to object bounding boxes with their category
 | [PVSG](https://jingkang50.github.io/PVSG/) | Video (panoptic) | 126 | - |  57 |  4,587 | 400|
 | [ASPIRe](https://uark-cviu.github.io/ASPIRe/) | Video(Interlacements) | - | - | 4.5K | - | 1.5K |
 | [Ego-EASG](https://github.com/fpv-iplab/EASG) | Video(Ego-view) | 407 | - | 235 | - | - |
+|[SportsHHI](https://github.com/MCG-NJU/SportsHHI) | Video(sports) | - | - | - | - | 160 |
+| [VSGR](https://uark-cviu.github.io/projects/HyperGLM/) |Video(Procedural) | - | - | - | - | 3,748 | 
 | [3D Semantic Scene Graphs (3DSSG)](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wald_Learning_3D_Semantic_Scene_Graphs_From_3D_Indoor_Reconstructions_CVPR_2020_paper.pdf) | 3D | 528 | - | 39 | - | 48K|
 | [PSG4D](https://arxiv.org/pdf/2405.10305) | 4D | 46 | - | 15 | - | - | - |
 | [4D-OR](https://github.com/egeozsoy/4D-OR) | 4D(operating room) | 12 | - | 14 | - | - |
@@ -493,7 +495,10 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 ### Non-LLM-based
 
-+ [**UNO: Unifying One-stage Video Scene Graph Generation via Object-Centric Visual Representation Learning**](https://arxiv.org/pdf/2509.06165) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
++ [**OmniRe: Omni Urban Scene Reconstruction**](https://arxiv.org/pdf/2408.16760) [![Paper](https://img.shields.io/badge/ICLR25-696969)]() [![Star](https://img.shields.io/github/stars/ziyc/drivestudio.svg?style=social&label=Star)](https://github.com/ziyc/drivestudio)   [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://ziyc.github.io/omnire/)
+  <details><summary>Introduce Gaussian Scene Graph</summary>To allow for flexible control of diverse movable objects in the scene without sacrificing reconstruction quality, we opt for a Gaussian Scene Graph representation. Our scene graph is composed of the following nodes: (1) a Sky Node representing the sky that is far away from the ego-car, (2) a Background Node representing the static scene background such as buildings, roads, and vegetation, (3) a set of Rigid Nodes, each representing a rigidly movable object such as a vehicle, (4) a set of Non-rigid Nodes that model non-rigid individuals, e.g. pedestrians and cyclists. Nodes of type (2,3,4) can be converted directly into world-space Gaussians which we will introduce next. </details>
+
++ [**UNO: Unifying One-stage Video Scene Graph Generation via Object-Centric Visual Representation Learning**](https://arxiv.org/pdf/2509.06165) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  
  
 + [**FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images**](https://openaccess.thecvf.com/content/ICCV2025/papers/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)](https://openaccess.thecvf.com/content/ICCV2025/html/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.html) [![Star](https://img.shields.io/github/stars/Howardkhh/FROSS.svg?style=social&label=Star)](https://github.com/Howardkhh/FROSS)
 
@@ -703,7 +708,9 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 
 
-## Image Retrieval
+## Image/Video Retrieval
+
++ [**Object-Centric Framework for Video Moment Retrieval**](https://arxiv.org/pdf/2512.18448) [![Paper](https://img.shields.io/badge/AAAI26-2f4f4f)]()
 
 + [**SCENIR: Visual Semantic Clarity through Unsupervised Scene Graph Retrieval**](https://arxiv.org/pdf/2505.15867) [![Paper](https://img.shields.io/badge/ICML25-FF7F50)]()  [![Star](https://img.shields.io/github/stars/nickhaidos/scenir-icml2025.svg?style=social&label=Star)](https://github.com/nickhaidos/scenir-icml2025) 
 
@@ -811,8 +818,21 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 + [**Image Generation from Scene Graphs**](https://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0764.pdf) [![Paper](https://img.shields.io/badge/CVPR18-8A2BE2)]() [![Star](https://img.shields.io/github/stars/google/sg2im.svg?style=social&label=Star)](https://github.com/google/sg2im)
 
 
+## Video Generation
++ [**LINA: Learning INterventions Adaptively for Physical Alignment and Generalization in Diffusion Models**](https://arxiv.org/pdf/2512.13290)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/OpenCausaLab/LINA.svg?style=social&label=Star)](https://github.com/OpenCausaLab/LINA) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://opencausalab.github.io/LINA/)
+  <details><summary>Causal Scene Graph (CSG)</summary>Introduce a representation that unifies causal dependencies and spatial layouts, providing a basis for diagnostic interventions.</details>
+
++ [**LangDriveCTRL: Natural Language Controllable Driving Scene Editing with Multi-modal Agents**](https://arxiv.org/pdf/2512.17445) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://yunhe24.github.io/langdrivectrl/) 
+  <details><summary>Leverage Gaussian Scene Graph for Driving Scene Editing </summary> Decompose the input driving log into a scene graph SG that enables object level reasoning and controllable editing. The scene graph contains a static background node and multiple dynamic object nodes representing vehicles and pedestrians, providing a modular and interpretable representation for fine-grained editing.</details>
+
 
 ## 2D/Video Scene Visual Reasoning
+
++ [**Seeing is Believing (and Predicting): Context-Aware Multi-Human Behavior Prediction with Vision Language Models**](https://arxiv.org/pdf/2512.15957) [![Paper](https://img.shields.io/badge/WACV25-800080)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://camp-vlm.github.io/) 
+  <details><summary>Scene graph for understanding human-scene interactions</summary>a Vision Language Model (VLM)-based framework that incorporates contextual features from visual input and spatial awareness from scene graphs to enhance prediction of humans-scene interactions</details>
+
++ [**SNOW: Spatio-Temporal Scene Understanding with World Knowledge for Open-World Embodied Reasoning**](https://arxiv.org/pdf/2512.16461) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
+  <details><summary>4D Scene Graph (4DSG)</summary>SNOW processes synchronized RGB images and 3D point clouds, using HDBSCAN clustering to generate object-level proposals that guide SAM2-based segmentation. Each segmented region is encoded through our proposed Spatio-Temporal Tokenized Patch Encoding (STEP), producing multimodal tokens that capture localized semantic, geometric, and temporal attributes. These tokens are incrementally integrated into a 4D Scene Graph (4DSG), which serves as 4D prior for downstream reasoning. </details>
 
 + [**Measuring Epistemic Humility in Multimodal Large Language Models**](https://arxiv.org/pdf/2509.09658) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Star](https://img.shields.io/github/stars/maifoundations/HumbleBench.svg?style=social&label=Star)](https://github.com/maifoundations/HumbleBench)
   <details><summary>Introduce a HumbleBench, a new hallucination benchmark</summary>Existing works overlook an  equally critical capabilty for trustworthy AI: recognizing when none pf the provided options are correct, a behavior reflecting epistemic humility. The introduced benchmark is designed to evaluate MLLMs’ ability to reject plausible but incorrect answers across three hallucination types: object, relation, and attribute. Built from a panoptic scene graph dataset, we leverage fine-grained scene graph annotations to extract ground-truth entities and relations, and prompt GPT-4-Turbo to generate multiple-choice questions, followed by a rigorous manual filtering process. </details>
