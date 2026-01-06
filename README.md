@@ -103,6 +103,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 | [ImageNet-VidVRD](https://xdshang.github.io/docs/imagenet-vidvrd.html) | Video | 35 | - | 132 | 3,219 | 100 |
 | [VidOR](https://xdshang.github.io/docs/vidor.html) | Video | 80 | - | 50 | - | 10,000 |
 | [Action Genome](https://github.com/JingweiJ/ActionGenome) | Video | 35 | 0.4M | 25 | 1.7M | 10,000 |
+| [HOMAGE](https://homeactiongenome.org/) | Video | - | - | - | - | 24.6K|
 | [AeroEye](https://arxiv.org/pdf/2406.01029) | Video (Drone-View) | 56 | - | 384 | - | 2.2M |
 | [PVSG](https://jingkang50.github.io/PVSG/) | Video (panoptic) | 126 | - |  57 |  4,587 | 400|
 | [ASPIRe](https://uark-cviu.github.io/ASPIRe/) | Video(Interlacements) | - | - | 4.5K | - | 1.5K |
@@ -575,8 +576,12 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 + [**Video Visual Relation Detection**](https://dl.acm.org/doi/10.1145/3123266.3123380) [![Paper](https://img.shields.io/badge/MM23-8b4513)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://xdshang.github.io/docs/imagenet-vidvrd.html)
 
 
++ [**Home Action Genome: Cooperative Compositional Action Understanding**](https://arxiv.org/pdf/2105.05226) [![Paper](https://img.shields.io/badge/CVPR21-8A2BE2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://homeactiongenome.org/)
 
++ [**Learning Physical Graph Representations from Visual Scenes**](https://proceedings.neurips.cc/paper/2020/file/4324e8d0d37b110ee1a4f1633ac52df5-Paper.pdf) [![Paper](https://img.shields.io/badge/NIPS21-CD5C5C2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://neuroailab.github.io/physical-scene-graphs/)
+  <details><summary>Physical Scene Graphs</summary>PSGs are hierarchical graphs meant to capture the hierarchical and physical structure of scenes. Vertices in the graph, which represent objects or parts of objects, are arranged in a set of hierarchical levels. Edges between vertices at level l and level l + 1 – called child-to-parent edges – intuitively represent part-whole relationships; edges between vertices at level l – called within-level edges – represent abstract relationships between objects or parts. In principle, different within-level edge sets could encode different relationships (e.g. support or dynamic contact), but in this work they represent physical connections.Beyond vertices and edges, PSGs have two additional structures: attribute vectors that label each vertex with data, meant to represent physical properties of scene elements; and spatiotemporal registrations (SRs) that explicitly link each PSG vertex in a given level to a subset of pixels in a base tensor F of shape.</details>
 
++ [**MovieGraphs: Towards Understanding Human-Centric Situations from Videos**](https://arxiv.org/pdf/1712.06761) [![Paper](https://img.shields.io/badge/CVPR18-8A2BE2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](http://moviegraphs.cs.toronto.edu/)
 
 
 ## Audio Scene Graph Generation
@@ -1024,6 +1029,8 @@ dataset Visual Genome (VG), from which semantic triplets follow real-world distr
 anchor local dynamic graphs Gd to global static graph.</details>
 
 + [**GraSP-VLA: Graph-based Symbolic Action Representation for Long-Horizon Planning with VLA Policies**](https://arxiv.org/pdf/2511.04357)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() <details><summary>A Continuous Scene Graph representation</summary>a framework that uses a Continuous Scene Graph representation to generate a symbolic representation of human demonstrations. This representation is used to generate new planning domains during inference and serves as an orchestrator for low-level VLA policies, scaling up the number of actions that can be reproduced in a row. </details>
+
++ [**MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning**](https://arxiv.org/pdf/2512.16909)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)]([real-stanford/semantic-abstraction](https://hybridrobotics.github.io/MomaGraph/))
 
 + [**Open-World 3D Scene Graph Generation for Retrieval-Augmented Reasoning**](https://arxiv.org/pdf/2511.05894) [![Paper](https://img.shields.io/badge/AAAI25-191970)]() 
 
