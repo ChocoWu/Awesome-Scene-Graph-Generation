@@ -219,6 +219,8 @@ There are three subtasks:
 
 ### Non-LLM-based
 
++ [**Salience-SGG: Enhancing Unbiased Scene Graph Generation with Iterative Salience Estimation**](https://arxiv.org/pdf/2601.08728) [![Paper](https://img.shields.io/badge/WACV25-6a5acd)]() [![Star](https://img.shields.io/github/stars/runfeng-q/Salience-SGG.svg?style=social&label=Star)](https://github.com/runfeng-q/Salience-SGG)  
+
 + [**Interaction-Centric Knowledge Infusion and Transfer for Open-Vocabulary Scene Graph Generation**](https://arxiv.org/pdf/2511.05935) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]()  
 
 + [**Vision-Language Interactive Relation Mining for Open-Vocabulary Scene Graph Generation**](https://openaccess.thecvf.com/content/ICCV2025/papers/Min_Vision-Language_Interactive_Relation_Mining_for_Open-Vocabulary_Scene_Graph_Generation_ICCV_2025_paper.pdf)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Star](https://img.shields.io/github/stars/myukzzz/VL-IRM.svg?style=social&label=Star)](https://github.com/myukzzz/VL-IRM)
@@ -496,12 +498,13 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 ### Non-LLM-based
 
+
 + [**OmniRe: Omni Urban Scene Reconstruction**](https://arxiv.org/pdf/2408.16760) [![Paper](https://img.shields.io/badge/ICLR25-696969)]() [![Star](https://img.shields.io/github/stars/ziyc/drivestudio.svg?style=social&label=Star)](https://github.com/ziyc/drivestudio)   [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://ziyc.github.io/omnire/)
   <details><summary>Introduce Gaussian Scene Graph</summary>To allow for flexible control of diverse movable objects in the scene without sacrificing reconstruction quality, we opt for a Gaussian Scene Graph representation. Our scene graph is composed of the following nodes: (1) a Sky Node representing the sky that is far away from the ego-car, (2) a Background Node representing the static scene background such as buildings, roads, and vegetation, (3) a set of Rigid Nodes, each representing a rigidly movable object such as a vehicle, (4) a set of Non-rigid Nodes that model non-rigid individuals, e.g. pedestrians and cyclists. Nodes of type (2,3,4) can be converted directly into world-space Gaussians which we will introduce next. </details>
 
 + [**RS-Net: Context-Aware Relation Scoring for Dynamic Scene Graph Generation**](https://arxiv.org/pdf/2511.08651) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  
 
-+ [**UNO: Unifying One-stage Video Scene Graph Generation via Object-Centric Visual Representation Learning**](https://arxiv.org/pdf/2509.06165) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  
++ [**UNO: Unifying One-stage Video Scene Graph Generation via Object-Centric Visual Representation Learning**](https://arxiv.org/pdf/2509.06165) [![Paper](https://img.shields.io/badge/WACV25-6a5acd)]()  
  
 + [**FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images**](https://openaccess.thecvf.com/content/ICCV2025/papers/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)](https://openaccess.thecvf.com/content/ICCV2025/html/Hou_FROSS_Faster-Than-Real-Time_Online_3D_Semantic_Scene_Graph_Generation_from_RGB-D_ICCV_2025_paper.html) [![Star](https://img.shields.io/github/stars/Howardkhh/FROSS.svg?style=social&label=Star)](https://github.com/Howardkhh/FROSS)
 
@@ -598,9 +601,14 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 Given a 3D point cloud $P \in R^{N×3}$ consisting of $N$ points, we assume there is a set of class-agnostic instance masks $M = \{M_1, ..., M_K\}$ corresponding to $K$ entities in $P$, `3D Scene Graph Generation` aims to map the input 3D point cloud to a reliable semantically structured scene graph $G = \{O, R\}$. 
 Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
+
++ [**VIZOR: Viewpoint-Invariant Zero-Shot Scene Graph Generation for 3D Scene Reasoning**]() [![Paper](https://img.shields.io/badge/WACV25-6a5acd)]() 
+
 + [**Object-Centric Representation Learning for Enhanced 3D Scene Graph Prediction**](https://openreview.net/pdf?id=LjmXrUsSrg) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/VisualScienceLab-KHU/OCRL-3DSSG-Codes.svg?style=social&label=Star)](https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes)
 
-+ [**Statistical Confidence Rescoring for Robust 3D Scene Graph Generation from Multi-View Images**](https://arxiv.org/pdf/2508.06546)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://qixun1.github.io/projects/SCRSSG/)
++ [**Statistical Confidence Rescoring for Robust 3D Scene Graph Generation from Multi-View Images**](https://arxiv.org/pdf/2508.06546)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://qixun1.github.io/projects/SCRSSG/) [![Star](https://img.shields.io/github/stars/qixun1/scrssg.svg?style=social&label=Star)](https://github.com/qixun1/scrssg)
+
++ [**Hierarchical 3D Scene Graphs Construction Outdoors**](https://openaccess.thecvf.com/content/ICCV2025/papers/Nyffeler_Hierarchical_3D_Scene_Graphs_Construction_Outdoors_ICCV_2025_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]() [![Star](https://img.shields.io/github/stars/Jonnyffeler/OutdoorSceneGraph.svg?style=social&label=Star)](https://github.com/Jonnyffeler/OutdoorSceneGraph)
 
 
 + [**Open-Vocabulary Functional 3D Scene Graphs for Real-World Indoor Spaces**](https://arxiv.org/pdf/2503.19199)  [![Paper](https://img.shields.io/badge/CVPR25-8A2BE2)]()  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://openfungraph.github.io/)
@@ -884,6 +892,8 @@ textual features from vision-language models to visual conceptual understanding.
 
 ## 3D Scene Visual Reasoning
 
++ [**View-on-Graph: Zero-Shot 3D Visual Grounding via Vision-Language Reasoning on Scene Graphs**](https://arxiv.org/pdf/2512.09215)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/YYLiuDLUT/VoG.svg?style=social&label=Star)](https://github.com/YYLiuDLUT/VoG)
+
 + [**MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning**](https://arxiv.org/pdf/2509.22281)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/InternRobotics/MesaTask.svg?style=social&label=Star)](https://github.com/InternRobotics/MesaTask) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://mesatask.github.io/)
  
 
@@ -971,6 +981,7 @@ textual features from vision-language models to visual conceptual understanding.
 
 ## Anomaly Detection
 
+
 + [**Scene-Specific Anomalous Relationship Detection Using Scene Graph Summarization**](https://openaccess.thecvf.com/content/CVPR2025W/VAND/html/Lai_Scene-Specific_Anomalous_Relationship_Detection_Using_Scene_Graph_Summarization_CVPRW_2025_paper.html) [![Star](https://img.shields.io/github/stars/chancharikmitra/CCoT.svg?style=social&label=Star)](https://github.com/marow17623/SARD?tab=readme-ov-file)
 
 ## Enhanced VLM/MLLM
@@ -1024,6 +1035,9 @@ dataset Visual Genome (VG), from which semantic triplets follow real-world distr
 
 
 ## Dynamic Environment Guidance
+
+
++ [**Terra: Hierarchical Terrain-Aware 3D Scene Graph for Task-Agnostic Outdoor Mapping**](https://arxiv.org/pdf/2509.19579v1) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
 
 + [**Hi-Dyna Graph: Hierarchical Dynamic Scene Graph for Robotic Autonomy in Human-Centric Environments**](https://arxiv.org/pdf/2506.00083) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() <details><summary>hierarchical dynamic scene graph (Hi-Dyna Graph)</summary>The global static scene graph captures persistent environmental semantics and represents the layout structures through vertices and edges.Local dynamic subgraphs are built and updated incrementally from video streams. The video could come from an environmental camera or an embodied one whose global pose is available. To empower the dynamic graphs with global layouts and introduce dynamics into global graph, we
 anchor local dynamic graphs Gd to global static graph.</details>
