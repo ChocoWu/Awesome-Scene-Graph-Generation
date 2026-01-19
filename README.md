@@ -1095,7 +1095,7 @@ a scene and accommodate them with proper places.</details>
 
 ## Privacy-sensitive Object Identification
 
-+ [**Beyond Visual Appearances: Privacy-sensitive Objects Identification via Hybrid Graph Reasoning**](https://arxiv.org/pdf/2406.12736) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
++ [**Beyond Visual Appearances: Privacy-sensitive Objects Identification via Hybrid Graph Reasoning**](https://arxiv.org/pdf/2406.12736) (Withdrawn) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
 
 ## Referring Expression Comprehension
