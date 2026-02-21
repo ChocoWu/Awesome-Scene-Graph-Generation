@@ -601,6 +601,7 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 Given a 3D point cloud $P \in R^{N×3}$ consisting of $N$ points, we assume there is a set of class-agnostic instance masks $M = \{M_1, ..., M_K\}$ corresponding to $K$ entities in $P$, `3D Scene Graph Generation` aims to map the input 3D point cloud to a reliable semantically structured scene graph $G = \{O, R\}$. 
 Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
++ [**MA3DSG: Multi-Agent 3D Scene Graph Generation for Large-Scale Indoor Environments**](https://arxiv.org/pdf/2602.04152) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 + [**VIZOR: Viewpoint-Invariant Zero-Shot Scene Graph Generation for 3D Scene Reasoning**]() [![Paper](https://img.shields.io/badge/WACV25-6a5acd)]() 
 
@@ -914,6 +915,9 @@ textual features from vision-language models to visual conceptual understanding.
 
 ## 3D Scene Generation
 
++ [**SceneLinker: Compositional 3D Scene Generation via Semantic Scene Graph from RGB Sequences**](https://arxiv.org/pdf/2602.02974)  [![Paper](https://img.shields.io/badge/TVCG26-8b4513)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://scenelinker2026.github.io/)
+
+
 + [**MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning**](https://arxiv.org/pdf/2509.22281) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://mesatask.github.io/) [![Star](https://img.shields.io/github/stars/InternRobotics/MesaTask.svg?style=social&label=Star)](https://github.com/InternRobotics/MesaTask)
   <details><summary>Scene graph guided the generation of 3D layouts and used for dataset construction.</summary><details>
 
@@ -1036,6 +1040,7 @@ dataset Visual Genome (VG), from which semantic triplets follow real-world distr
 
 ## Dynamic Environment Guidance
 
++ [**Integrated Exploration and Sequential Manipulation on Scene Graph with LLM-based Situated Replanning**](https://arxiv.org/pdf/2602.04419)  [![Paper](https://img.shields.io/badge/ICRA25-b22222)]()
 
 + [**Terra: Hierarchical Terrain-Aware 3D Scene Graph for Task-Agnostic Outdoor Mapping**](https://arxiv.org/pdf/2509.19579v1) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
 
