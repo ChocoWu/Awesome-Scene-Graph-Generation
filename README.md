@@ -220,6 +220,8 @@ There are three subtasks:
 
 ### Non-LLM-based
 
++ [**REACT++: Efficient Cross-Attention for Real-Time Scene Graph Generation**](https://arxiv.org/pdf/2603.06386) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/Maelic/SGG-Benchmark.svg?style=social&label=Star)](https://github.com/Maelic/SGG-Benchmark)
+
 + [**Salience-SGG: Enhancing Unbiased Scene Graph Generation with Iterative Salience Estimation**](https://arxiv.org/pdf/2601.08728) [![Paper](https://img.shields.io/badge/WACV25-6a5acd)]() [![Star](https://img.shields.io/github/stars/runfeng-q/Salience-SGG.svg?style=social&label=Star)](https://github.com/runfeng-q/Salience-SGG)  
 
 + [**Interaction-Centric Knowledge Infusion and Transfer for Open-Vocabulary Scene Graph Generation**](https://arxiv.org/pdf/2511.05935) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]()  
