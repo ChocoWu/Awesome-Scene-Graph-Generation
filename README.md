@@ -220,6 +220,10 @@ There are three subtasks:
 
 ### Non-LLM-based
 
++ [**APT: Towards Universal Scene Graph Generation via Plug-in Adaptive Prompt Tuning**](https://openreview.net/pdf?id=IZWJhdK2o7)   [![Paper](https://img.shields.io/badge/ICLR26-696969)]() [![Star](https://img.shields.io/github/stars/CGCL-codes/APT.svg?style=social&label=Star)](https://github.com/CGCL-codes/APT)
+
+
+
 + [**REACT++: Efficient Cross-Attention for Real-Time Scene Graph Generation**](https://arxiv.org/pdf/2603.06386) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/Maelic/SGG-Benchmark.svg?style=social&label=Star)](https://github.com/Maelic/SGG-Benchmark)
 
 + [**Salience-SGG: Enhancing Unbiased Scene Graph Generation with Iterative Salience Estimation**](https://arxiv.org/pdf/2601.08728) [![Paper](https://img.shields.io/badge/WACV25-6a5acd)]() [![Star](https://img.shields.io/github/stars/runfeng-q/Salience-SGG.svg?style=social&label=Star)](https://github.com/runfeng-q/Salience-SGG)  
@@ -749,7 +753,7 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 ## Image/Video Caption 
 
-+ [**PoSh: Using Scene Graphs To Guide LLMs-as-a-Judge For Detailed Image Descriptions**](https://arxiv.org/pdf/2510.19060)  ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/amith-ananthram/posh.svg?style=social&label=Star)](https://github.com/amith-ananthram/posh)
++ [**PoSh: Using Scene Graphs To Guide LLMs-as-a-Judge For Detailed Image Descriptions**](https://openreview.net/pdf?id=UBhY1c4r2W)  ![Paper](https://img.shields.io/badge/ICLR26-696969)  [![Star](https://img.shields.io/github/stars/amith-ananthram/posh.svg?style=social&label=Star)](https://github.com/amith-ananthram/posh)
   <details><summary>Utilize scene graph for image caption evaluation</summary>POSH extracts scene graphs from a generated description and its reference to use as structured rubrics for an LLM to granularly identify mistakes and omissions (see Fig. 2), pinpointing the textual spans containing errors like attribute/relation mis-attachment. Then, it aggregates these localized errors into coarse scores for mistakes, omissions and overall quality. Thus, POSH weds the strengths of structured methods like scene graphs, which reduce descriptions to their consequential visual components, with the strengths of LLMs/VLMs-as-a-Judge, which flexibly compare these visual components against diverse surface realizations.</details>
 
 + [**SC-Captioner: Improving Image Captioning with Self-Correction by Reinforcement Learning**](https://arxiv.org/pdf/2508.06125) ![Paper](https://img.shields.io/badge/ICCV25-2f4f4f) [![Star](https://img.shields.io/github/stars/LuFan31/CompreCap.svg?style=social&label=Star)](https://github.com/zl2048/SC-Captioner)
@@ -785,6 +789,8 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 ## 2D Image Generation
 
++ [**Generate Any Scene: Scene Graph Driven Data Synthesis for Visual Generation Training**](https://openreview.net/pdf?id=EwdWR6lfvW) [![Paper](https://img.shields.io/badge/ICLR26-696969)]() [![Star](https://img.shields.io/github/stars/RAIVNLab/GenerateAnyScene.svg?style=social&label=Star)](https://github.com/RAIVNLab/GenerateAnyScene) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://generate-any-scene.github.io/)
+
 
 + [**Leveraging Panoptic Scene Graph for Evaluating Fine-Grained Text-to-Image Generation**](https://openaccess.thecvf.com/content/ICCV2025/papers/Deng_Leveraging_Panoptic_Scene_Graph_for_Evaluating_Fine-Grained_Text-to-Image_Generation_ICCV_2025_paper.pdf)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()
 
@@ -797,9 +803,8 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 + [**LAION-SG: An Enhanced Large-Scale Dataset for Training Complex Image-Text Models with Structural Annotations**](https://arxiv.org/pdf/2412.08580) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/mengcye/LAION-SG.svg?style=social&label=Star)](https://github.com/mengcye/LAION-SG)
 
-+ [**Generate Any Scene: Evaluating and Improving Text-to-Vision Generation with Scene Graph Programming**](https://arxiv.org/pdf/2412.08221) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/RAIVNLab/GenerateAnyScene.svg?style=social&label=Star)](https://github.com/RAIVNLab/GenerateAnyScene) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://generate-any-scene.github.io/)
 
-+ [**LAION-SG: An Enhanced Large-Scale Dataset for Training Complex Image-Text Models with Structural Annotations**](https://arxiv.org/pdf/2412.08580) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()  [![Star](https://img.shields.io/github/stars/mengcye/LAION-SG.svg?style=social&label=Star)](https://github.com/mengcye/LAION-SG)
+
 
 + [**SSGEdit: Bridging LLM with Text2Image Generative Model for Scene Graph-based Image Editing**](https://arxiv.org/pdf/2410.11815) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()  [![Star](https://img.shields.io/github/stars/bestzzhang/SGEdit-code.svg?style=social&label=Star)](https://github.com/bestzzhang/SGEdit-code)
 
@@ -846,6 +851,9 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 
 ## 2D/Video Scene Visual Reasoning
+
++ [**A Structured, Tagged, and Localized Visual Question Answering Dataset with Full Sentence Answers and Scene Graphs for Chest X-ray Images**](https://openreview.net/pdf?id=LrmyW9JLYq)  [![Paper](https://img.shields.io/badge/ICLR26-696969)]()  [![Star](https://img.shields.io/github/stars/philip-mueller/mimic-ext-cxr-qba.svg?style=social&label=Star)](https://github.com/philip-mueller/mimic-ext-cxr-qba)
+
 
 + [**Seeing is Believing (and Predicting): Context-Aware Multi-Human Behavior Prediction with Vision Language Models**](https://arxiv.org/pdf/2512.15957) [![Paper](https://img.shields.io/badge/WACV25-800080)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://camp-vlm.github.io/) 
   <details><summary>Scene graph for understanding human-scene interactions</summary>a Vision Language Model (VLM)-based framework that incorporates contextual features from visual input and spatial awareness from scene graphs to enhance prediction of humans-scene interactions</details>
@@ -1043,6 +1051,9 @@ dataset Visual Genome (VG), from which semantic triplets follow real-world distr
 
 ## Dynamic Environment Guidance
 
++ [**MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning**](https://openreview.net/pdf?id=3eTr9dGwJv)  [![Paper](https://img.shields.io/badge/ICLR26-696969)]()  [![Star](https://img.shields.io/github/stars/HybridRobotics/MomaGraph.svg?style=social&label=Star)](https://github.com/HybridRobotics/MomaGraph) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)]([real-stanford/semantic-abstraction](https://hybridrobotics.github.io/MomaGraph/))
+
+
 + [**Integrated Exploration and Sequential Manipulation on Scene Graph with LLM-based Situated Replanning**](https://arxiv.org/pdf/2602.04419)  [![Paper](https://img.shields.io/badge/ICRA25-b22222)]()
 
 + [**Terra: Hierarchical Terrain-Aware 3D Scene Graph for Task-Agnostic Outdoor Mapping**](https://arxiv.org/pdf/2509.19579v1) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
@@ -1052,7 +1063,7 @@ anchor local dynamic graphs Gd to global static graph.</details>
 
 + [**GraSP-VLA: Graph-based Symbolic Action Representation for Long-Horizon Planning with VLA Policies**](https://arxiv.org/pdf/2511.04357)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() <details><summary>A Continuous Scene Graph representation</summary>a framework that uses a Continuous Scene Graph representation to generate a symbolic representation of human demonstrations. This representation is used to generate new planning domains during inference and serves as an orchestrator for low-level VLA policies, scaling up the number of actions that can be reproduced in a row. </details>
 
-+ [**MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning**](https://arxiv.org/pdf/2512.16909)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)]([real-stanford/semantic-abstraction](https://hybridrobotics.github.io/MomaGraph/))
+
 
 + [**Open-World 3D Scene Graph Generation for Retrieval-Augmented Reasoning**](https://arxiv.org/pdf/2511.05894) [![Paper](https://img.shields.io/badge/AAAI25-191970)]() 
 
