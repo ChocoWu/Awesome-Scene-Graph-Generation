@@ -904,6 +904,9 @@ textual features from vision-language models to visual conceptual understanding.
 
 ## 3D Scene Visual Reasoning
 
+
++ [**3DGraphLLM: : Combining Semantic Graphs and Large Language Models for 3D Scene Understanding**](https://arxiv.org/pdf/2412.18450) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/CognitiveAISystems/3DGraphLLM.svg?style=social&label=Star)](https://github.com/CognitiveAISystems/3DGraphLLM)
+
 + [**View-on-Graph: Zero-Shot 3D Visual Grounding via Vision-Language Reasoning on Scene Graphs**](https://arxiv.org/pdf/2512.09215)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/YYLiuDLUT/VoG.svg?style=social&label=Star)](https://github.com/YYLiuDLUT/VoG)
 
 + [**MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning**](https://arxiv.org/pdf/2509.22281)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/InternRobotics/MesaTask.svg?style=social&label=Star)](https://github.com/InternRobotics/MesaTask) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://mesatask.github.io/)
