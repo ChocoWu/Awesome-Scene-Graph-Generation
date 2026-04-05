@@ -131,7 +131,7 @@ Here, we provide some toolkits for parsing scene graphs or other useful tools fo
 
 + [**SceneGraphParser**](https://github.com/vacancy/SceneGraphParser) [![Star](https://img.shields.io/github/stars/vacancy/SceneGraphParser.svg?style=social&label=Star)](https://github.com/vacancy/SceneGraphParser)
 
-+ [**FactualSceneGraph**](https://github.com/zhuang-li/FactualSceneGraph) [![Star](https://img.shields.io/github/stars/zhuang-li/FactualSceneGraph.svg?style=social&label=Star)](https://github.com/zhuang-li/FactualSceneGraph)
++ [**FactualSceneGraph**](https://github.com/zhuang-li/FactualSceneGraph) [![Star](https://img.shields.io/github/stars/zhuang-li/FactualSceneGraph.svg?style=social&label=Star)](https://github.com/zhuang-li/FactualSceneGraph) <img src="https://static.pepy.tech/badge/FactualSceneGraph" alt="Downloads">
 
 + [**Scene-Graph-Benchmark.pytorch**](https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch)  [![Star](https://img.shields.io/github/stars/KaihuaTang/Scene-Graph-Benchmark.pytorch.svg?style=social&label=Star)](https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch)
 
