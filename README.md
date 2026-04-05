@@ -493,12 +493,13 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 + [**What can Off-the-Shelves Large Multi-Modal Models do for Dynamic Scene Graph Generation?**](https://arxiv.org/pdf/2503.15846) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
 
++ [**VL-KnG: Persistent Spatiotemporal Knowledge Graphs from Egocentric Video for Embodied Scene Understanding**](https://arxiv.org/pdf/2510.01483) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
 
 + [**Weakly Supervised Video Scene Graph Generation via Natural Language Supervision**](https://arxiv.org/pdf/2502.15370) [![Paper](https://img.shields.io/badge/ICLR25-696969)]()   [![Star](https://img.shields.io/github/stars/rlqja1107/NL-VSGG.svg?style=social&label=Star)](https://github.com/rlqja1107/NL-VSGG)
 
 + [**Tri-modal Confluence with Temporal Dynamics for Scene Graph Generation in Operating Rooms**](https://arxiv.org/pdf/2404.09231) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
-+ [**VL-KnG: Persistent Spatiotemporal Knowledge Graphs from Egocentric Video for Embodied Scene Understanding**](https://arxiv.org/pdf/2510.01483) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
+
 
 
 
