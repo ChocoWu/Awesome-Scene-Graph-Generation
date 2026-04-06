@@ -53,6 +53,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
   - [Textual Scene Graph Generation](#textual-scene-graph-generation)
   - [Map Space Scene Graph](#map-space-scene-graph)
   - [Universal Scene Graph Generation](#universal-scene-graph-generation)
+  - [World Scene Graph Generation](#world-scene-graph-generation)
 - [🥝 Scene Graph Application](#-scene-graph-application)
   - [Image Retrieval](#image-retrieval)
   - [Image/Video Caption](#imagevideo-caption)
@@ -116,6 +117,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 | [4D-OR](https://github.com/egeozsoy/4D-OR) | 4D(operating room) | 12 | - | 14 | - | - |
 | [MM-OR](https://github.com/egeozsoy/MM-OR) | 4D(operating room) | - | - | - | - | - |
 | [EgoExOR](https://github.com/egeozsoy/4D-OR) | 4D(operating room) | 36 | - | 22 | 568,235 | - |
+| [ActionGenome4D](https://github.com/rohithpeddi/WorldSGG) | 4D | 35 | 0.8M | 25 | 2.0M | 9250 |
 | [FACTUAL](https://github.com/zhuang-li/FactualSceneGraph) |  Image, Text  | 4,042 | - | 1,607 | 40,149 | 40,369 |
 | [TSG Bench](https://tsg-bench.netlify.app/) |  Text  | - | - | - | 11,820 | 4,289 |
 | [DiscoSG-DS](https://github.com/ShaoqLin/DiscoSG) |  Image, Text  | 4,018 | - | 2,033 | 68,478 | 8,830 |
@@ -691,6 +693,10 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 + [**RealGraph: A Multiview Dataset for 4D Real-world Context Graph Generation**](https://openaccess.thecvf.com/content/ICCV2023/papers/Lin_RealGraph_A_Multiview_Dataset_for_4D_Real-world_Context_Graph_Generation_ICCV_2023_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV23-2f4f4f)]()  [![Star](https://img.shields.io/github/stars/THU-luvision/RealGraph.svg?style=social&label=Star)](https://github.com/THU-luvision/RealGraph)
 
+
+## World Scene Graph Generation
+
++ [**Towards Spatio-Temporal World Scene Graph Generation from Monocular Videos**](https://arxiv.org/abs/2603.13185) [![Paper](https://img.shields.io/badge/arXiv26-b22222)](https://arxiv.org/abs/2603.13185)  [![Star](https://img.shields.io/github/stars/rohithpeddi/WorldSGG.svg?style=social&label=Star)](https://github.com/rohithpeddi/WorldSGG)
 
 
 ## Textual Scene Graph Generation
