@@ -55,7 +55,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
   - [Universal Scene Graph Generation](#universal-scene-graph-generation)
   - [World Scene Graph Generation](#world-scene-graph-generation)
 - [🥝 Scene Graph Application](#-scene-graph-application)
-  - [Image Retrieval](#image-retrieval)
+  - [Image Retrieval](#imagevideo-retrieval)
   - [Image/Video Caption](#imagevideo-caption)
   - [2D Image Generation](#2d-image-generation)
   - [2D/Video Visual Reasoning](#2dvideo-scene-visual-reasoning)
@@ -68,8 +68,8 @@ In this graph, the nodes correspond to object bounding boxes with their category
   - [Privacy-sensitive Object Identification](#privacy-sensitive-object-identification)
   - [Referring Expression Comprehension](#referring-expression-comprehension)
   - [Video Retrieval](#video-retrieval)
-- [🤶 Evaluation Metrics](#evaluation-metrics)
-- [🐱‍🚀 Miscellaneous](#miscellaneous)
+- [🤶 Evaluation Metrics](#-evaluation-metrics)
+- [🐱‍🚀 Miscellaneous](#-miscellaneous)
   - [Toolkit](#toolkit)
   - [Workshop](#workshop)
   - [Survey](#survey)
@@ -169,6 +169,8 @@ There are three subtasks:
 
 ### LLM-based 
 
++ [**SGG-R3: From Next-Token Prediction to End-to-End Unbiased Scene Graph Generation**](https://arxiv.org/pdf/2603.07961)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() 
+  <details><summary>R1-based model</summary> a structured reasoning framework that integrates task-specific chain-of-thought (CoT)-guided supervised fine-tuning (SFT) and reinforcement learning (RL) with group sequence policy optimization (GSPO), designed to engage in three sequential stages to achieve endto-end unbiased scene graph generation. During the SFT phase, we propose a relation augmentation strategy by leveraging an MLLM and refined via embedding similarity filtering to alleviate relation sparsity. Subsequently, a stage-aligned reward scheme optimizes the procedural reasoning during RL. Specifically, we propose a novel dual-granularity reward which integrates fine-grained and coarse-grained relation rewards, simultaneously mitigating the long-tail issue via frequency-based adaptive weighting of predicates and improving relation coverage through semantic clustering.</details>
 
 + [**Compile Scene Graphs with Reinforcement Learning**](https://arxiv.org/pdf/2504.13617) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Star](https://img.shields.io/github/stars/gpt4vision/R1-SGG.svg?style=social&label=Star)](https://github.com/gpt4vision/R1-SGG) 
   <details><summary>R1-based model</summary> R1-SGG, a novel framework leveraging visual instruction tuning enhanced by reinforcement learning (RL). The visual instruction tuning stage follows a conventional supervised fine-tuning (SFT) paradigm, i.e., finetuning the model using prompt-response pairs with a cross-entropy loss. For the RL stage, we adopt GRPO, an online policy optimization algorithm, in which an node-level reward and edge-level reward are designed.</details>
@@ -873,6 +875,7 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 + [**MMGraphRAG: Bridging Vision and Language with Interpretable Multimodal Knowledge Graphs**](https://arxiv.org/pdf/2507.20804) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
 
++ [**ChartEval: LLM-Driven Chart Generation Evaluation Using Scene Graph Parsing**](https://aclanthology.org/2025.ijcnlp-demo.10.pdf) [![Paper](https://img.shields.io/badge/ACL25-191970)]()
 
 + [**A Schema-Guided Reason-while-Retrieve framework for Reasoning on Scene Graphs with Large-Language-Models (LLMs)**](https://arxiv.org/pdf/2502.03450) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
 
@@ -1179,6 +1182,11 @@ a scene and accommodate them with proper places.</details>
 
 
 # 🤶 Evaluation Metrics
+
++ [**Measuring Image-Relation Alignment: Reference-Free Evaluation of VLMs and Synthetic Pre-training for Open-Vocabulary Scene Graph Generation**](https://openaccess.thecvf.com/content/ICCV2025W/SG2RL/papers/Neau_Measuring_Image-Relation_Alignment_Reference-Free_Evaluation_of_VLMs_and_Synthetic_Pre-training_ICCVW_2025_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV25W-2f4f4f)]() [![Star](https://img.shields.io/github/stars/Maelic/OpenVocSGG.svg?style=social&label=Star)](https://github.com/Maelic/OpenVocSGG)
+  <details><summary>Reference-Free Metric</summary>This study proposes a reference-free evaluation metric that does not rely on ground truth. It assesses performance by measuring the alignment between the generated triplets and the semantic content of the image, thereby mitigating the issue of underestimated scores in open-vocabulary settings caused by incomplete annotations.</details>
+
++ [**A Fair Ranking and New Model for Panoptic Scene Graph Generation**](https://arxiv.org/pdf/2407.09216) [![Paper](https://img.shields.io/badge/ECCV24-1e90ff)]() [![Star](https://img.shields.io/github/stars/lorjul/fair-psgg.svg?style=social&label=Star)](https://github.com/lorjul/fair-psgg)
 
 + [**A Review and Efficient Implementation of Scene Graph Generation Metrics**](https://arxiv.org/pdf/2404.09616) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/lorjul/sgbench.svg?style=social&label=Star)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lorjul.github.io/sgbench/)
 
