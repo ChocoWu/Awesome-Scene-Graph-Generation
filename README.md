@@ -325,7 +325,10 @@ There are three subtasks:
 
 + [**Hierarchical Relationships: A New Perspective to Enhance Scene Graph Generation**](https://arxiv.org/pdf/2303.06842)  [![Paper](https://img.shields.io/badge/TPAMI24-ffa07a)]()
 
+
 + [**Improving Scene Graph Generation with Superpixel-Based Interaction Learning**](https://dl.acm.org/doi/pdf/10.1145/3581783.3611889) [![Paper](https://img.shields.io/badge/MM23-8b4513)]()
+
++ [**Importance Weighted Structure Learning for Scene Graph Generation**](https://arxiv.org/pdf/2205.07017)  [![Paper](https://img.shields.io/badge/TPAMI23-ffa07a)]()
 
 
 + [**Reltr: Relation transformer for scene graph generation**](https://arxiv.org/abs/2201.11460) [![Paper](https://img.shields.io/badge/TPAMI23-ffa07a)]()  [![Star](https://img.shields.io/github/stars/yrcong/RelTR.svg?style=social&label=Star)](https://github.com/yrcong/RelTR)
@@ -1195,7 +1198,8 @@ a scene and accommodate them with proper places.</details>
 
 + [**Semantic Similarity Score for Measuring Visual Similarity at Semantic Level**](https://arxiv.org/pdf/2406.03865) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
-
++ [**Rethinking the Evaluation of Unbiased Scene Graph Generation**](https://arxiv.org/pdf/2208.01909)  [![Paper](https://img.shields.io/badge/arXiv22-b22222)]()
+  <details><summary>Independent Mean Recall</summary>Since there are actually many multiple reasonable predicates for some subject-object pairs, it is unfair to rank all triplet predictions across categories under the single-label classification problem formulation. One intuitive and straightforward solution to solve this problem is to build a well-annotated test dataset and redefine the task as a multi-label classification problem. However, it costs expensive to annotate exhaustively all the reasonable predicates for the subject-object pairs. Hence, we provide one solution to treat each predicate category independently and avoid their mutual influence. For each image, we independently rank and output top-K (K = 10/20/50) predictions for each predicate category to calculate their own recall scores on this image. In this way, we remove the influence of different categories and the predicates with high correlations will not be suppressed by the other predicates. Then we obtain the recall on each predicate category by averaging the corresponding scores over all images. The final score is the averaged value over categories. We call this metric Independent Mean Recall (IMR).</details>
 
 ---
 
