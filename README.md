@@ -1192,6 +1192,8 @@ a scene and accommodate them with proper places.</details>
 + [**Conformal Prediction and MLLM aided Uncertainty Quantification in Scene Graph Generation**](https://arxiv.org/pdf/2503.13947) [![Paper](https://img.shields.io/badge/CVPR25-8A2BE2)]() 
   <details><summary>Conformal Prediction Metrics</summary>The CP[A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification] metrics are used to gauge the uncertainty associated with both object and predicate classification of each SGG mode</details>
 
++ [**What can Off-the-Shelves Large Multi-Modal Models do for Dynamic Scene Graph Generation?**](https://arxiv.org/pdf/2503.15846) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
+
 + [**A Fair Ranking and New Model for Panoptic Scene Graph Generation**](https://arxiv.org/pdf/2407.09216) [![Paper](https://img.shields.io/badge/ECCV24-1e90ff)]() [![Star](https://img.shields.io/github/stars/lorjul/fair-psgg.svg?style=social&label=Star)](https://github.com/lorjul/fair-psgg)
 
 + [**A Review and Efficient Implementation of Scene Graph Generation Metrics**](https://arxiv.org/pdf/2404.09616) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/lorjul/sgbench.svg?style=social&label=Star)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lorjul.github.io/sgbench/)
