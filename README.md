@@ -228,6 +228,11 @@ There are three subtasks:
 
 ### Non-LLM-based
 
+ + [**ReLIC-SGG: Relation Lattice Completion for Open-Vocabulary Scene Graph Generation**](https://arxiv.org/pdf/2604.22546) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+
+
++ [**CAGE-SGG: Counterfactual Active Graph Evidence for Open-Vocabulary Scene Graph Generation**](https://arxiv.org/pdf/2604.22274)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+
 + [**APT: Towards Universal Scene Graph Generation via Plug-in Adaptive Prompt Tuning**](https://openreview.net/pdf?id=IZWJhdK2o7)   [![Paper](https://img.shields.io/badge/ICLR26-696969)]() [![Star](https://img.shields.io/github/stars/CGCL-codes/APT.svg?style=social&label=Star)](https://github.com/CGCL-codes/APT)
 
 
@@ -443,6 +448,8 @@ There are three subtasks:
 
 Compared with traditional scene graph, each object is grounded by `a panoptic segmentation mask` in PSG, achieving a compresensive structured scene representation.
 
++ [**DSFlash: Comprehensive Panoptic Scene Graph Generation in Realtime**](https://arxiv.org/pdf/2603.10538) [![Paper](https://img.shields.io/badge/CVPR26-8A2BE2)]()
+
 + [**SPADE: Spatial-Aware Denoising Network for Open-vocabulary Panoptic Scene Graph Generation with Long- and Local-range Context Reasoning**](https://arxiv.org/pdf/2507.05798) [![Paper](https://img.shields.io/badge/ICCV25-00CED1)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://8078qwe.github.io/SPADE/)
   <details><summary>a novel spatialaware diffusion-based framework for open-vocabulary PSG</summary>In this paper, they introduced SPADE, a novel spatialaware diffusion-based framework for open-vocabulary PSG. SPADE addresses the limitations of VLM-based PSG models, particularly their weaknesses in spatial relation reasoning. Our approach consists of two key steps: inversion-guided calibration and spatial-aware context reasoning. First, we fine-tune a pre-trained teacher diffusion model into a PSG-specific denoising network using crossattention maps from inversion, optimized with a lightweight LoRA-based calibration strategy. Second, we introduce a spatial-aware relation graph transformer that captures both local and long-range contextual dependencies, improving relation query generation</details>
 
@@ -517,6 +524,7 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 ### Non-LLM-based
 
++ [**Revisiting Weakly-Supervised Video Scene Graph Generation via Pair Affinity Learning**](https://arxiv.org/pdf/2603.21559) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 + [**OmniRe: Omni Urban Scene Reconstruction**](https://arxiv.org/pdf/2408.16760) [![Paper](https://img.shields.io/badge/ICLR25-696969)]() [![Star](https://img.shields.io/github/stars/ziyc/drivestudio.svg?style=social&label=Star)](https://github.com/ziyc/drivestudio)   [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://ziyc.github.io/omnire/)
   <details><summary>Introduce Gaussian Scene Graph</summary>To allow for flexible control of diverse movable objects in the scene without sacrificing reconstruction quality, we opt for a Gaussian Scene Graph representation. Our scene graph is composed of the following nodes: (1) a Sky Node representing the sky that is far away from the ego-car, (2) a Background Node representing the static scene background such as buildings, roads, and vegetation, (3) a set of Rigid Nodes, each representing a rigidly movable object such as a vehicle, (4) a set of Non-rigid Nodes that model non-rigid individuals, e.g. pedestrians and cyclists. Nodes of type (2,3,4) can be converted directly into world-space Gaussians which we will introduce next. </details>
@@ -868,6 +876,17 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 ## 2D/Video Scene Visual Reasoning
 
+
++ [**360° Image Perception with MLLMs: A Comprehensive Benchmark and a Training-Free Method**](https://arxiv.org/pdf/2603.16179) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() [![Star](https://img.shields.io/github/stars/TranHuyen1191/360Bench-Free360.svg?style=social&label=Star)](https://github.com/TranHuyen1191/360Bench-Free360)
+  <details><summary>Free360</summary>A training-free scenegraph-based framework for high-resolution 360◦ VQA. Free360 decomposes the reasoning process into modular steps, applies adaptive spherical image transformations to 360° images tailored to each step, and seamlessly integrates the resulting information into a unified graph representation for answer generation.</details>
+
++ [**Beyond Accuracy: Benchmarking Cross-Task Consistency in Unified Multimodal Models**](https://arxiv.org/pdf/2604.25072)
+ [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://weixingw.github.io/xtc-bench/) 
+
+
++ [**BUSSARD: Normalizing Flows for Bijective Universal Scene-Specific Anomalous Relationship Detection**](https://arxiv.org/pdf/2603.16645) [![Paper](https://img.shields.io/badge/CVPR26-8A2BE2)]() [![Star](https://img.shields.io/github/stars/mschween/BUSSARD.svg?style=social&label=Star)](https://github.com/mschween/BUSSARD) 
+  <details>A new task: Scene-Specific Anomalous Relationship Detection (SARD)</details>
+
 + [**A Structured, Tagged, and Localized Visual Question Answering Dataset with Full Sentence Answers and Scene Graphs for Chest X-ray Images**](https://openreview.net/pdf?id=LrmyW9JLYq)  [![Paper](https://img.shields.io/badge/ICLR26-696969)]()  [![Star](https://img.shields.io/github/stars/philip-mueller/mimic-ext-cxr-qba.svg?style=social&label=Star)](https://github.com/philip-mueller/mimic-ext-cxr-qba)
 
 
@@ -921,6 +940,7 @@ textual features from vision-language models to visual conceptual understanding.
 
 ## 3D Scene Visual Reasoning
 
++ [**SGR3 Model: Scene Graph Retrieval-Reasoning Model in 3D**](https://arxiv.org/pdf/2603.04614)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 + [**3DGraphLLM: : Combining Semantic Graphs and Large Language Models for 3D Scene Understanding**](https://arxiv.org/pdf/2412.18450) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/CognitiveAISystems/3DGraphLLM.svg?style=social&label=Star)](https://github.com/CognitiveAISystems/3DGraphLLM)
 
@@ -945,6 +965,10 @@ textual features from vision-language models to visual conceptual understanding.
 
 
 ## 3D Scene Generation
+
++ [**FlowScene: Style-Consistent Indoor Scene Generation with Multimodal Graph Rectified Flow**](https://arxiv.org/pdf/2603.19598) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+
++ [**SceneCritic: A Symbolic Evaluator for 3D Indoor Scene Synthesis**](https://arxiv.org/pdf/2604.13035) [![Paper](https://img.shields.io/badge//arXiv26-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lab-spell.github.io/SceneCritic/) [![Star](https://img.shields.io/github/stars/DIASENGUPTA/SceneCritic.svg?style=social&label=Star)](https://github.com/DIASENGUPTA/SceneCritic)
 
 + [**SceneLinker: Compositional 3D Scene Generation via Semantic Scene Graph from RGB Sequences**](https://arxiv.org/pdf/2602.02974)  [![Paper](https://img.shields.io/badge/TVCG26-8b4513)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://scenelinker2026.github.io/)
 
@@ -1157,6 +1181,8 @@ a scene and accommodate them with proper places.</details>
 ## Automated Driving & Intelligent Transport Systems
 
 - Traffic scene graph is constructed thought spatial location rule. For example, using BEV rules to derive triplets like `ego-vehicle, isin, lane-3`, `ego-vehicle, to right of, pedestrian-1`, and `ego-vehicle, very near, pedestrian-2`.
+
++ [**Hazard-Aware Traffic Scene Graph Generation**](https://arxiv.org/pdf/2603.03584) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 + [**T2SG: Traffic Topology Scene Graph for Topology Reasoning in Autonomous Driving**](https://openaccess.thecvf.com/content/CVPR2025/papers/Lv_T2SG_Traffic_Topology_Scene_Graph_for_Topology_Reasoning_in_Autonomous_CVPR_2025_paper.pdf)   [![Paper](https://img.shields.io/badge/CVPR25-8A2BE2)]()   [![Star](https://img.shields.io/github/stars/MICLAB-BUPT/T2SG.svg?style=social&label=Star)](https://github.com/MICLAB-BUPT/T2SG)
 
