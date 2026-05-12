@@ -4,6 +4,12 @@
 
 
 # 📣 News
+
+- We release a new Video Scene Graph annotators at [VSG-Annotator](https://github.com/scene-graph/VSG-Annotator/), any comments and feedback are welcomed.
+
+- We have released a new project website that brings together all of our scene graph-related works. Feel free to follow our updates at [Scene Graph Series](https://scene-graph.github.io/).
+
+
 - ✨✨✨Thanks everyone for joining the **WACV26 Workshop** on [Scene Graph for Structured Intelligence](https://scene-graph.github.io/SG4SI-WACV26/).
 
 
@@ -190,9 +196,7 @@ There are three subtasks:
 + [**Conformal Prediction and MLLM aided Uncertainty Quantification in Scene Graph Generation**](https://arxiv.org/pdf/2503.13947) [![Paper](https://img.shields.io/badge/CVPR25-8A2BE2)]() 
 
 
-+ [**LLaVA-SpaceSGG: Visual Instruct Tuning for Open-vocabulary Scene Graph Generation with Enhanced Spatial Relations**](https://arxiv.org/pdf/2412.06322) [![Paper](https://img.shields.io/badge/WACV24-6a5acd)]()  [![Star](https://img.shields.io/github/stars/Endlinc/LLaVA-SpaceSGG.svg?style=social&label=Star)](https://github.com/Endlinc/LLaVA-SpaceSGG) 
-
-+ [**Tri-modal Confluence with Temporal Dynamics for Scene Graph Generation in Operating Rooms**](https://arxiv.org/pdf/2404.09231) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() 
++ [**LLaVA-SpaceSGG: Visual Instruct Tuning for Open-vocabulary Scene Graph Generation with Enhanced Spatial Relations**](https://arxiv.org/pdf/2412.06322) [![Paper](https://img.shields.io/badge/WACV24-6a5acd)]()  [![Star](https://img.shields.io/github/stars/Endlinc/LLaVA-SpaceSGG.svg?style=social&label=Star)](https://github.com/Endlinc/LLaVA-SpaceSGG)  
 
 
 + [**Scene Graph Generation Strategy with Co-occurrence Knowledge and Learnable Term Frequency**](https://arxiv.org/pdf/2405.12648) [![Paper](https://img.shields.io/badge/ICML24-FF7F50)]() 
@@ -1021,7 +1025,7 @@ textual features from vision-language models to visual conceptual understanding.
 
 + [**Compositional Chain-of-Thought Prompting for Large Multimodal Models**](https://arxiv.org/pdf/2311.17076) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/chancharikmitra/CCoT.svg?style=social&label=Star)](https://github.com/chancharikmitra/CCoT)
 
-+ [**Dysen-VDM: Empowering Dynamics-aware Text-to-Video Diffusion with LLMs**](https://openaccess.thecvf.com/content/CVPR2024/papers/Fei_Dysen-VDM_Empowering_Dynamics-aware_Text-to-Video_Diffusion_with_LLMs_CVPR_2024_paper.pdf)  [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://haofei.vip/Dysen-VDM/)
+
 
 + [**The All-Seeing Project V2: Towards General Relation Comprehension of the Open World**](https://arxiv.org/pdf/2402.19474) [![Paper](https://img.shields.io/badge/ECCV24-1e90ff)]() [![Star](https://img.shields.io/github/stars/OpenGVLab/all-seeing.svg?style=social&label=Star)](https://github.com/OpenGVLab/all-seeing) <details><summary>New dataset and New Task (Relation Conversation) </summary>we propose a novel task, termed Relation Conversation (ReC), which unifies the formulation of text generation, object localization, and relation comprehension. Based on the unified formulation, we construct the AS-V2 dataset, which consists of 127K high-quality relation conversation samples, to unlock the ReC capability for Multi-modal Large Language Models (MLLMs).</details>
 
@@ -1139,16 +1143,9 @@ a scene and accommodate them with proper places.</details>
 
 
 
-## Video Retrieval
-
-
-+ [**A Review and Efficient Implementation of Scene Graph Generation Metricsl**](https://arxiv.org/pdf/2404.09616) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/lorjul/sgbench.svg?style=social&label=Star)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lorjul.github.io/sgbench/)
-
-
-
 ## Video Generation
 
-+ [**Dysen-VDM: Empowering Dynamics-aware Text-to-Video Diffusion with LLMs**](https://arxiv.org/pdf/2308.13812) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://haofei.vip/Dysen-VDM/)
++ [**Dysen-VDM: Empowering Dynamics-aware Text-to-Video Diffusion with LLMs**](https://openaccess.thecvf.com/content/CVPR2024/papers/Fei_Dysen-VDM_Empowering_Dynamics-aware_Text-to-Video_Diffusion_with_LLMs_CVPR_2024_paper.pdf)  [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://haofei.vip/Dysen-VDM/)
 
 + [**VISAGE: Video Synthesis using Action Graphs for Surgery**](https://arxiv.org/pdf/2410.17751) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
@@ -1194,9 +1191,14 @@ a scene and accommodate them with proper places.</details>
 
 + [**What can Off-the-Shelves Large Multi-Modal Models do for Dynamic Scene Graph Generation?**](https://arxiv.org/pdf/2503.15846) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() 
 
+
 + [**A Fair Ranking and New Model for Panoptic Scene Graph Generation**](https://arxiv.org/pdf/2407.09216) [![Paper](https://img.shields.io/badge/ECCV24-1e90ff)]() [![Star](https://img.shields.io/github/stars/lorjul/fair-psgg.svg?style=social&label=Star)](https://github.com/lorjul/fair-psgg)
 
 + [**A Review and Efficient Implementation of Scene Graph Generation Metrics**](https://arxiv.org/pdf/2404.09616) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/lorjul/sgbench.svg?style=social&label=Star)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lorjul.github.io/sgbench/)
+
+
++ [**A Review and Efficient Implementation of Scene Graph Generation Metrics**](https://arxiv.org/pdf/2404.09616) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/lorjul/sgbench.svg?style=social&label=Star)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lorjul.github.io/sgbench/)
+
 
 + [**Semantic Similarity Score for Measuring Visual Similarity at Semantic Level**](https://arxiv.org/pdf/2406.03865) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
