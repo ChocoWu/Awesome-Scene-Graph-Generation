@@ -876,6 +876,8 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 ## 2D/Video Scene Visual Reasoning
 
++ [**Panoptic Pairwise Distortion Graph**](https://openreview.net/attachment?id=VDfF7NqJJl&name=pdf) [![Paper](https://img.shields.io/badge/ICLR26-696969)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://aismartperception.github.io/distortion-graph/)  
+
 
 + [**360° Image Perception with MLLMs: A Comprehensive Benchmark and a Training-Free Method**](https://arxiv.org/pdf/2603.16179) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() [![Star](https://img.shields.io/github/stars/TranHuyen1191/360Bench-Free360.svg?style=social&label=Star)](https://github.com/TranHuyen1191/360Bench-Free360)
   <details><summary>Free360</summary>A training-free scenegraph-based framework for high-resolution 360◦ VQA. Free360 decomposes the reasoning process into modular steps, applies adaptive spherical image transformations to 360° images tailored to each step, and seamlessly integrates the resulting information into a unified graph representation for answer generation.</details>
