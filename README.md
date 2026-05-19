@@ -630,9 +630,9 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 + [**MA3DSG: Multi-Agent 3D Scene Graph Generation for Large-Scale Indoor Environments**](https://arxiv.org/pdf/2602.04152) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
-+ [**VIZOR: Viewpoint-Invariant Zero-Shot Scene Graph Generation for 3D Scene Reasoning**]() [![Paper](https://img.shields.io/badge/WACV25-6a5acd)]() 
++ [**VIZOR: Viewpoint-Invariant Zero-Shot Scene Graph Generation for 3D Scene Reasoning**](https://openaccess.thecvf.com/content/WACV2026/papers/Madhavaram_VIZOR_Viewpoint-Invariant_Zero-Shot_Scene_Graph_Generation_for_3D_Scene_Reasoning_WACV_2026_paper.pdf) [![Paper](https://img.shields.io/badge/WACV25-6a5acd)]() 
 
-+ [**Object-Centric Representation Learning for Enhanced 3D Scene Graph Prediction**](https://openreview.net/pdf?id=LjmXrUsSrg) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/VisualScienceLab-KHU/OCRL-3DSSG-Codes.svg?style=social&label=Star)](https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes)
++ [**Object-Centric Representation Learning for Enhanced 3D Scene Graph Prediction**](https://arxiv.org/pdf/2510.04714) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/VisualScienceLab-KHU/OCRL-3DSSG-Codes.svg?style=social&label=Star)](https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes)
 
 + [**Statistical Confidence Rescoring for Robust 3D Scene Graph Generation from Multi-View Images**](https://arxiv.org/pdf/2508.06546)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://qixun1.github.io/projects/SCRSSG/) [![Star](https://img.shields.io/github/stars/qixun1/scrssg.svg?style=social&label=Star)](https://github.com/qixun1/scrssg)
 
