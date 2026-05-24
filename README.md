@@ -32,6 +32,7 @@
 - [**Do World Models need Objects?**](https://www.youtube.com/watch?v=xo3VMe2lHgs)
   ```
   Yes and No! Early successes were enabled by architectural constraints, enabling explicit, model-internal object representations. However, modern froniter models clearly have the object-level understanding/capabilities (without object-specific architectural constraints).
+    - Thomas Kipf
   ```
 
 - [**Can we define the scene-level for a scene graph?**](https://github.com/ChocoWu/Awesome-Scene-Graph-Generation/issues/12)
