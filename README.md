@@ -29,6 +29,10 @@
   - Vincent Sitzmann
   ```
 
+- [**Do World Models need Objects?**](https://www.youtube.com/watch?v=xo3VMe2lHgs)
+  ```
+  ```
+
 - [**Can we define the scene-level for a scene graph?**](https://github.com/ChocoWu/Awesome-Scene-Graph-Generation/issues/12)
 
 - [**Insights on open-source codebases and new directions for the field of SGG**](https://github.com/ChocoWu/Awesome-Scene-Graph-Generation/issues/16)
@@ -49,6 +53,16 @@ In this graph, the nodes correspond to object bounding boxes with their category
 
 # 📕 Table of Contents
 - [🌷 Scene Graph Datasets](#-datasets)
+- [🧩 Scene Representation](#-scene-representation)
+  - [Patch & Token Representation](#patch--token-representation)
+  - [Object-centric / Slot-based Representation](#object-centric--slot-based-representation)
+  - [Neural Implicit Representation](#neural-implicit-representation)
+  - [Explicit 3D Representation](#explicit-3d-representation)
+  - [Dynamic / 4D / Video Representation](#dynamic--4d--video-representation)
+  - [World Model Latent Representation](#world-model-latent-representation)
+  - [Language-grounded Representation](#language-grounded-representation)
+  - [Symbolic / Program-based Representation](#symbolic--program-based-representation)
+  - [Relational / Graph-based Representation](#relational--graph-based-representation)
 - [🍕 Scene Graph Generation](#-scene-graph-generation)
   - [2D (Image) Scene Graph Generation](#2d-image-scene-graph-generation)
   - [Panoptic Scene Graph Generation](#panoptic-scene-graph-generation)
@@ -162,6 +176,115 @@ Here, we provide some toolkits for parsing scene graphs or other useful tools fo
 <!-- arXiv-b22222 -->
 <!-- ACL-191970 -->
 <!-- TPAMI-ffa07a -->
+
+
+# 🧩 Scene Representation
+How to represent a scene? Scene graphs are one structured, relational choice — but the field has explored many alternatives along different axes (granularity, implicit vs. explicit, static vs. dynamic, perceptual vs. generative). This section maps the main families so the reader can locate scene graphs within the broader landscape.
+
+
+## Patch & Token Representation
+Dividing the image into regular patches or discrete visual tokens.
+
++ [**Language Model Beats Diffusion — Tokenizer is Key to Visual Generation**](https://arxiv.org/pdf/2310.05737) [![Paper](https://img.shields.io/badge/ICLR24-696969)]()
++ [**Masked Autoencoders Are Scalable Vision Learners**](https://arxiv.org/pdf/2111.06377) [![Paper](https://img.shields.io/badge/CVPR22-8A2BE2)]() [![Star](https://img.shields.io/github/stars/facebookresearch/mae.svg?style=social&label=Star)](https://github.com/facebookresearch/mae)
++ [**BEiT: BERT Pre-Training of Image Transformers**](https://arxiv.org/pdf/2106.08254) [![Paper](https://img.shields.io/badge/ICLR22-696969)]() [![Star](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social&label=Star)](https://github.com/microsoft/unilm)
++ [**Swin Transformer: Hierarchical Vision Transformer using Shifted Windows**](https://arxiv.org/pdf/2103.14030) [![Paper](https://img.shields.io/badge/ICCV21-00CED1)]() [![Star](https://img.shields.io/github/stars/microsoft/Swin-Transformer.svg?style=social&label=Star)](https://github.com/microsoft/Swin-Transformer)
++ [**An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale**](https://arxiv.org/pdf/2010.11929) [![Paper](https://img.shields.io/badge/ICLR21-696969)]()
++ [**Generating Diverse High-Fidelity Images with VQ-VAE-2**](https://arxiv.org/pdf/1906.00446) [![Paper](https://img.shields.io/badge/NIPS19-CD5C5C2)]()
++ [**Neural Discrete Representation Learning**](https://arxiv.org/pdf/1711.00937) [![Paper](https://img.shields.io/badge/NIPS17-CD5C5C2)]()
+
+
+## Object-centric / Slot-based Representation
+Decomposing a scene into discrete object slots — the closest cousin to scene graphs without explicit relations. Conceptual thread: *object slots → neural assets → explicit compositional generation*.
+
++ [**Interaction asymmetry: A general principle for learning composable abstractions**](https://proceedings.iclr.cc/paper_files/paper/2025/file/735c847a07bf6dd4486ca1ace242a88c-Paper-Conference.pdf) [![Paper](https://img.shields.io/badge/ICLR25-696969)]()
++ [**Neural Assets: 3D-Aware Multi-Object Scene Synthesis with Image Diffusion Models**](https://proceedings.neurips.cc/paper_files/paper/2024/file/8bc74514d554a90c996576f6c373f5f3-Paper-Conference.pdf) [![Paper](https://img.shields.io/badge/NIPS24-CD5C5C2)]()
++ [**Bridging the Gap to Real-World Object-Centric Learning**](https://arxiv.org/pdf/2209.14860) [![Paper](https://img.shields.io/badge/ICLR23-696969)]()
++ [**SAVi++: Towards End-to-End Object-Centric Learning from Real-World Videos**](https://arxiv.org/pdf/2206.07764) [![Paper](https://img.shields.io/badge/NIPS22-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/google-research/slot-attention-video.svg?style=social&label=Star)](https://github.com/google-research/slot-attention-video)
++ [**Conditional Object-Centric Learning from Video**](https://arxiv.org/pdf/2111.12594) [![Paper](https://img.shields.io/badge/ICLR22-696969)]() [![Star](https://img.shields.io/github/stars/google-research/slot-attention-video.svg?style=social&label=Star)](https://github.com/google-research/slot-attention-video)
++ [**GENESIS-V2: Inferring Unordered Object Representations without Iterative Refinement**](https://arxiv.org/pdf/2104.09958) [![Paper](https://img.shields.io/badge/NIPS21-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/applied-ai-lab/genesis.svg?style=social&label=Star)](https://github.com/applied-ai-lab/genesis)
++ [**Object-Centric Learning with Slot Attention**](https://arxiv.org/pdf/2006.15055) [![Paper](https://img.shields.io/badge/NIPS20-CD5C5C2)]()
++ [**GENESIS: Generative Scene Inference and Sampling with Object-Centric Latent Representations**](https://arxiv.org/pdf/1907.13052) [![Paper](https://img.shields.io/badge/ICLR20-696969)]() [![Star](https://img.shields.io/github/stars/applied-ai-lab/genesis.svg?style=social&label=Star)](https://github.com/applied-ai-lab/genesis)
++ [**Multi-Object Representation Learning with Iterative Variational Inference**](https://arxiv.org/pdf/1903.00450) [![Paper](https://img.shields.io/badge/ICML19-FF7F50)]() [![Star](https://img.shields.io/github/stars/deepmind/deepmind-research.svg?style=social&label=Star)](https://github.com/deepmind/deepmind-research)
++ [**MONet: Unsupervised Scene Decomposition and Representation**](https://arxiv.org/pdf/1901.11390) [![Paper](https://img.shields.io/badge/arXiv19-b22222)]()
+
+
+## Neural Implicit Representation
+Continuous fields parameterized by neural networks — coordinates in, signal out.
+
++ [**Instant Neural Graphics Primitives with a Multiresolution Hash Encoding**](https://arxiv.org/pdf/2201.05989) [![Paper](https://img.shields.io/badge/SIGGRAPH22-2E8B57)]() [![Star](https://img.shields.io/github/stars/NVlabs/instant-ngp.svg?style=social&label=Star)](https://github.com/NVlabs/instant-ngp)
++ [**Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields**](https://arxiv.org/pdf/2111.12077) [![Paper](https://img.shields.io/badge/CVPR22-8A2BE2)]() [![Star](https://img.shields.io/github/stars/google-research/multinerf.svg?style=social&label=Star)](https://github.com/google-research/multinerf)
++ [**NeuS: Learning Neural Implicit Surfaces by Volume Rendering for Multi-view Reconstruction**](https://arxiv.org/pdf/2106.10689) [![Paper](https://img.shields.io/badge/NIPS21-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/Totoro97/NeuS.svg?style=social&label=Star)](https://github.com/Totoro97/NeuS)
++ [**Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields**](https://arxiv.org/pdf/2103.13415) [![Paper](https://img.shields.io/badge/ICCV21-00CED1)]() [![Star](https://img.shields.io/github/stars/google/mipnerf.svg?style=social&label=Star)](https://github.com/google/mipnerf)
++ [**Implicit Neural Representations with Periodic Activation Functions**](https://proceedings.neurips.cc/paper/2020/file/53c04118df112c13a8c34b38343b9c10-Paper.pdf) [![Paper](https://img.shields.io/badge/NIPS20-CD5C5C2)]()
++ [**NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis**](https://arxiv.org/pdf/2003.08934) [![Paper](https://img.shields.io/badge/ECCV20-1e90ff)]() [![Star](https://img.shields.io/github/stars/bmild/nerf.svg?style=social&label=Star)](https://github.com/bmild/nerf)
++ [**DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation**](https://arxiv.org/pdf/1901.05103) [![Paper](https://img.shields.io/badge/CVPR19-8A2BE2)]() [![Star](https://img.shields.io/github/stars/facebookresearch/DeepSDF.svg?style=social&label=Star)](https://github.com/facebookresearch/DeepSDF)
++ [**Occupancy Networks: Learning 3D Reconstruction in Function Space**](https://arxiv.org/pdf/1812.03828) [![Paper](https://img.shields.io/badge/CVPR19-8A2BE2)]() [![Star](https://img.shields.io/github/stars/autonomousvision/occupancy_networks.svg?style=social&label=Star)](https://github.com/autonomousvision/occupancy_networks)
+
+
+## Explicit 3D Representation
+Discrete geometric primitives — points, meshes, splats.
+
++ [**Mip-Splatting: Alias-free 3D Gaussian Splatting**](https://arxiv.org/pdf/2311.16493) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/autonomousvision/mip-splatting.svg?style=social&label=Star)](https://github.com/autonomousvision/mip-splatting)
++ [**3D Gaussian Splatting for Real-Time Radiance Field Rendering**](https://arxiv.org/pdf/2308.04079) [![Paper](https://img.shields.io/badge/SIGGRAPH23-2E8B57)]() [![Star](https://img.shields.io/github/stars/graphdeco-inria/gaussian-splatting.svg?style=social&label=Star)](https://github.com/graphdeco-inria/gaussian-splatting)
++ [**Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images**](https://arxiv.org/pdf/1804.01654) [![Paper](https://img.shields.io/badge/ECCV18-1e90ff)]() [![Star](https://img.shields.io/github/stars/nywang16/Pixel2Mesh.svg?style=social&label=Star)](https://github.com/nywang16/Pixel2Mesh)
++ [**AtlasNet: A Papier-Mâché Approach to Learning 3D Surface Generation**](https://arxiv.org/pdf/1802.05384) [![Paper](https://img.shields.io/badge/CVPR18-8A2BE2)]() [![Star](https://img.shields.io/github/stars/ThibaultGROUEIX/AtlasNet.svg?style=social&label=Star)](https://github.com/ThibaultGROUEIX/AtlasNet)
++ [**PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space**](https://arxiv.org/pdf/1706.02413) [![Paper](https://img.shields.io/badge/NIPS17-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/charlesq34/pointnet2.svg?style=social&label=Star)](https://github.com/charlesq34/pointnet2)
++ [**PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation**](https://arxiv.org/pdf/1612.00593) [![Paper](https://img.shields.io/badge/CVPR17-8A2BE2)]() [![Star](https://img.shields.io/github/stars/charlesq34/pointnet.svg?style=social&label=Star)](https://github.com/charlesq34/pointnet)
+
+
+## Dynamic / 4D / Video Representation
+Extending the above to time — moving scenes and video.
+
++ [**Scaling 4D Representations**](https://arxiv.org/pdf/2412.15212) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
++ [**Moving Off-the-Grid: Scene-Grounded Video Representations**](https://proceedings.neurips.cc/paper_files/paper/2024/file/e0e25d425450b6fc8e34380de71b3aee-Paper-Conference.pdf) [![Paper](https://img.shields.io/badge/NIPS24-CD5C5C2)]()
++ [**4D Gaussian Splatting for Real-Time Dynamic Scene Rendering**](https://arxiv.org/pdf/2310.08528) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/hustvl/4DGaussians.svg?style=social&label=Star)](https://github.com/hustvl/4DGaussians)
++ [**DyST: Towards Dynamic Neural Scene Representations on Real-World Videos**](https://proceedings.iclr.cc/paper_files/paper/2024/file/a0673542a242759ea637972f053b2e0b-Paper-Conference.pdf) [![Paper](https://img.shields.io/badge/ICLR24-696969)]()
++ [**Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis**](https://arxiv.org/pdf/2308.09713) [![Paper](https://img.shields.io/badge/3DV24-4B0082)]() [![Star](https://img.shields.io/github/stars/JonathonLuiten/Dynamic3DGaussians.svg?style=social&label=Star)](https://github.com/JonathonLuiten/Dynamic3DGaussians)
++ [**K-Planes: Explicit Radiance Fields in Space, Time, and Appearance**](https://arxiv.org/pdf/2301.10241) [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Star](https://img.shields.io/github/stars/sarafridov/K-Planes.svg?style=social&label=Star)](https://github.com/sarafridov/K-Planes)
++ [**HexPlane: A Fast Representation for Dynamic Scenes**](https://arxiv.org/pdf/2301.09632) [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Star](https://img.shields.io/github/stars/Caoang327/HexPlane.svg?style=social&label=Star)](https://github.com/Caoang327/HexPlane)
++ [**Nerfies: Deformable Neural Radiance Fields**](https://arxiv.org/pdf/2011.12948) [![Paper](https://img.shields.io/badge/ICCV21-00CED1)]() [![Star](https://img.shields.io/github/stars/google/nerfies.svg?style=social&label=Star)](https://github.com/google/nerfies)
++ [**HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields**](https://arxiv.org/pdf/2106.13228) [![Paper](https://img.shields.io/badge/SIGGRAPH21-2E8B57)]() [![Star](https://img.shields.io/github/stars/google/hypernerf.svg?style=social&label=Star)](https://github.com/google/hypernerf)
++ [**D-NeRF: Neural Radiance Fields for Dynamic Scenes**](https://arxiv.org/pdf/2011.13961) [![Paper](https://img.shields.io/badge/CVPR21-8A2BE2)]() [![Star](https://img.shields.io/github/stars/albertpumarola/D-NeRF.svg?style=social&label=Star)](https://github.com/albertpumarola/D-NeRF)
+
+
+## World Model Latent Representation
+Implicit latent dynamics learned for prediction, planning, or generation — particularly relevant to the ongoing debate on whether structured scene representations are still needed (see *"Do World Models need Objects?"* in the Recent Topics above).
+
++ [**Mastering Diverse Domains through World Models**](https://arxiv.org/pdf/2301.04104) [![Paper](https://img.shields.io/badge/Nature25-008080)]() [![Star](https://img.shields.io/github/stars/danijar/dreamerv3.svg?style=social&label=Star)](https://github.com/danijar/dreamerv3)
++ [**Revisiting Feature Prediction for Learning Visual Representations from Video**](https://arxiv.org/pdf/2404.08471) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/facebookresearch/jepa.svg?style=social&label=Star)](https://github.com/facebookresearch/jepa)
++ [**Genie: Generative Interactive Environments**](https://arxiv.org/pdf/2402.15391) [![Paper](https://img.shields.io/badge/ICML24-FF7F50)]()
++ [**Video generation models as world simulators**](https://openai.com/index/video-generation-models-as-world-simulators/) [![Paper](https://img.shields.io/badge/OpenAI24-000000)]()
++ [**GAIA-1: A Generative World Model for Autonomous Driving**](https://arxiv.org/pdf/2309.17080) [![Paper](https://img.shields.io/badge/arXiv23-b22222)]()
++ [**Learning Latent Dynamics for Planning from Pixels**](https://arxiv.org/pdf/1811.04551) [![Paper](https://img.shields.io/badge/ICML19-FF7F50)]() [![Star](https://img.shields.io/github/stars/google-research/planet.svg?style=social&label=Star)](https://github.com/google-research/planet)
++ [**World Models**](https://arxiv.org/pdf/1803.10122) [![Paper](https://img.shields.io/badge/NIPS18-CD5C5C2)]()
+
+
+## Language-grounded Representation
+Scene representations entangled with natural-language embeddings — usually CLIP-style features lifted into 2D/3D fields.
+
++ [**LangSplat: 3D Language Gaussian Splatting**](https://arxiv.org/pdf/2312.16084) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/minghanqin/LangSplat.svg?style=social&label=Star)](https://github.com/minghanqin/LangSplat)
++ [**OpenMask3D: Open-Vocabulary 3D Instance Segmentation**](https://arxiv.org/pdf/2306.13631) [![Paper](https://img.shields.io/badge/NIPS23-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/OpenMask3D/openmask3d.svg?style=social&label=Star)](https://github.com/OpenMask3D/openmask3d)
++ [**LERF: Language Embedded Radiance Fields**](https://arxiv.org/pdf/2303.09553) [![Paper](https://img.shields.io/badge/ICCV23-00CED1)]() [![Star](https://img.shields.io/github/stars/kerrj/lerf.svg?style=social&label=Star)](https://github.com/kerrj/lerf)
++ [**OpenScene: 3D Scene Understanding with Open Vocabularies**](https://arxiv.org/pdf/2211.15654) [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Star](https://img.shields.io/github/stars/pengsongyou/openscene.svg?style=social&label=Star)](https://github.com/pengsongyou/openscene)
++ [**ConceptFusion: Open-set Multimodal 3D Mapping**](https://arxiv.org/pdf/2302.07241) [![Paper](https://img.shields.io/badge/RSS23-8B4513)]() [![Star](https://img.shields.io/github/stars/concept-fusion/concept-fusion.svg?style=social&label=Star)](https://github.com/concept-fusion/concept-fusion)
++ [**CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory**](https://arxiv.org/pdf/2210.05663) [![Paper](https://img.shields.io/badge/RSS23-8B4513)]() [![Star](https://img.shields.io/github/stars/notmahi/clip-fields.svg?style=social&label=Star)](https://github.com/notmahi/clip-fields)
++ [**Decomposing NeRF for Editing via Feature Field Distillation**](https://arxiv.org/pdf/2205.15585) [![Paper](https://img.shields.io/badge/NIPS22-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/pfnet-research/distilled-feature-fields.svg?style=social&label=Star)](https://github.com/pfnet-research/distilled-feature-fields)
+
+
+## Symbolic / Program-based Representation
+Scenes as executable programs or symbolic structures.
+
++ [**ViperGPT: Visual Inference via Python Execution for Reasoning**](https://arxiv.org/pdf/2303.08128) [![Paper](https://img.shields.io/badge/ICCV23-00CED1)]() [![Star](https://img.shields.io/github/stars/cvlab-columbia/viper.svg?style=social&label=Star)](https://github.com/cvlab-columbia/viper)
++ [**Visual Programming: Compositional Visual Reasoning Without Training**](https://arxiv.org/pdf/2211.11559) [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Star](https://img.shields.io/github/stars/allenai/visprog.svg?style=social&label=Star)](https://github.com/allenai/visprog)
++ [**The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision**](https://arxiv.org/pdf/1904.12584) [![Paper](https://img.shields.io/badge/ICLR19-696969)]() [![Star](https://img.shields.io/github/stars/vacancy/NSCL-PyTorch-Release.svg?style=social&label=Star)](https://github.com/vacancy/NSCL-PyTorch-Release)
+
+
+## Relational / Graph-based Representation
+Scene graphs — the focus of this awesome list. See [Scene Graph Generation](#-scene-graph-generation) below for the full bibliography.
+
+
+
 
 
 # 🍕 Scene Graph Generation
@@ -1281,7 +1404,7 @@ a scene and accommodate them with proper places.</details>
 
 + [**Awesome Scene Graphs**](https://github.com/huoxingmeishi/Awesome-Scene-Graphs)
 + [**awesome-scene-graph**](https://github.com/mqjyl/awesome-scene-graph)
-
++ [**Awesome 3D Scene Graphs**](https://github.com/DennisRotondi/awesome-3D-scene-graphs)
 
 
 
