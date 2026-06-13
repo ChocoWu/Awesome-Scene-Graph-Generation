@@ -5,6 +5,8 @@
 
 # 📣 News
 
+- We're always happy to connect with people interested in these topics and explore potential collaborationswhether for future workshops, research projects, or simply exchanging ideas. Feel free to reach out!.
+
 - We release a new Video Scene Graph annotators at [VSG-Annotator](https://github.com/scene-graph/VSG-Annotator/), any comments and feedback are welcomed.
 
 - We have released a new project website that brings together all of our scene graph-related works. Feel free to follow our updates at [Scene Graph Series](https://scene-graph.github.io/).
@@ -1009,7 +1011,7 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 + [**EgoCoT-Bench: Benchmarking Grounded and Verifiable Operation-Centric Chain of Thought Reasoning for MLLMs**](https://arxiv.org/pdf/2605.19559) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
-+ [**Bridging Structure and Language: Graph-Based Visual Reasoning for Autonomous Road Understanding**]()
++ [**Bridging Structure and Language: Graph-Based Visual Reasoning for Autonomous Road Understanding**](https://arxiv.org/pdf/2605.20942) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 + [**Panoptic Pairwise Distortion Graph**](https://openreview.net/attachment?id=VDfF7NqJJl&name=pdf) [![Paper](https://img.shields.io/badge/ICLR26-696969)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://aismartperception.github.io/distortion-graph/)  
 
