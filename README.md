@@ -5,7 +5,7 @@
 
 # 📣 News
 
-- We're always happy to connect with people interested in these topics and explore potential collaborationswhether for future workshops, research projects, or simply exchanging ideas. Feel free to reach out!.
+- We're always happy to connect with people interested in these topics and explore potential collaborationswhether for future workshops, research projects, or simply exchanging ideas. Feel free to reach out!
 
 - We release a new Video Scene Graph annotators at [VSG-Annotator](https://github.com/scene-graph/VSG-Annotator/), any comments and feedback are welcomed.
 
