@@ -64,7 +64,6 @@ In this graph, the nodes correspond to object bounding boxes with their category
   - [World Model Latent Representation](#world-model-latent-representation)
   - [Language-grounded Representation](#language-grounded-representation)
   - [Symbolic / Program-based Representation](#symbolic--program-based-representation)
-  - [Relational / Graph-based Representation](#relational--graph-based-representation)
 - [🍕 Scene Graph Generation](#-scene-graph-generation)
   - [2D (Image) Scene Graph Generation](#2d-image-scene-graph-generation)
   - [Panoptic Scene Graph Generation](#panoptic-scene-graph-generation)
@@ -282,12 +281,6 @@ Scenes as executable programs or symbolic structures.
 + [**The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision**](https://arxiv.org/pdf/1904.12584) [![Paper](https://img.shields.io/badge/ICLR19-696969)]() [![Star](https://img.shields.io/github/stars/vacancy/NSCL-PyTorch-Release.svg?style=social&label=Star)](https://github.com/vacancy/NSCL-PyTorch-Release)
 
 
-## Relational / Graph-based Representation
-Scene graphs — the focus of this awesome list. See [Scene Graph Generation](#-scene-graph-generation) below for the full bibliography.
-
-
-
-
 
 # 🍕 Scene Graph Generation
 
@@ -353,7 +346,9 @@ There are three subtasks:
 
 ### Non-LLM-based
 
- + [**ReLIC-SGG: Relation Lattice Completion for Open-Vocabulary Scene Graph Generation**](https://arxiv.org/pdf/2604.22546) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
++ [**Learning Context-Conditioned Predicate Semantics via Prototype Feedback**](https://arxiv.org/pdf/2605.29610) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()  [![Star](https://img.shields.io/github/stars/Namgyu97/AlignG-SGG.pytorch.svg?style=social&label=Star)](https://github.com/Namgyu97/AlignG-SGG.pytorch)
+
++ [**ReLIC-SGG: Relation Lattice Completion for Open-Vocabulary Scene Graph Generation**](https://arxiv.org/pdf/2604.22546) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 
 + [**CAGE-SGG: Counterfactual Active Graph Evidence for Open-Vocabulary Scene Graph Generation**](https://arxiv.org/pdf/2604.22274)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
@@ -630,6 +625,8 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 ### LLM-based 
 
++ [**SceneGraphVLM: Dynamic Scene Graph Generation from Video with Vision-Language Models**](https://arxiv.org/pdf/2605.13667) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()  [![Star](https://img.shields.io/github/stars/markus0440/SceneGraphVLM.svg?style=social&label=Star)](https://github.com/markus0440/SceneGraphVLM)
+
 + [**ESCA: Contextualizing Embodied Agents via Scene-Graph Generation**](https://arxiv.org/pdf/2510.15963) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/video-fm/ESCA.svg?style=social&label=Star)](https://github.com/video-fm/ESCA)
 
 + [**LASER: A Neuro-Symbolic Framework for Learning Spatial-Temporal Scene Graphs with Weak Supervision**](https://arxiv.org/pdf/2304.07647)  [![Paper](https://img.shields.io/badge/ICLR25-696969)]()  [![Star](https://img.shields.io/github/stars/video-fm/LASER.svg?style=social&label=Star)](https://github.com/video-fm/LASER)
@@ -753,11 +750,17 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 Given a 3D point cloud $P \in R^{N×3}$ consisting of $N$ points, we assume there is a set of class-agnostic instance masks $M = \{M_1, ..., M_K\}$ corresponding to $K$ entities in $P$, `3D Scene Graph Generation` aims to map the input 3D point cloud to a reliable semantically structured scene graph $G = \{O, R\}$. 
 Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
+
++ [**KeySG: Hierarchical Keyframe-Based 3D Scene Graphs**](https://arxiv.org/abs/2510.01049) [![Paper](https://img.shields.io/badge/ICRA26-8A2BE2)]()  [![Star](https://img.shields.io/github/stars/keysg-lab/KeySG.svg?style=social&label=Star)](https://github.com/keysg-lab/KeySG)
+
+
 + [**MA3DSG: Multi-Agent 3D Scene Graph Generation for Large-Scale Indoor Environments**](https://arxiv.org/pdf/2602.04152) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 + [**VIZOR: Viewpoint-Invariant Zero-Shot Scene Graph Generation for 3D Scene Reasoning**](https://openaccess.thecvf.com/content/WACV2026/papers/Madhavaram_VIZOR_Viewpoint-Invariant_Zero-Shot_Scene_Graph_Generation_for_3D_Scene_Reasoning_WACV_2026_paper.pdf) [![Paper](https://img.shields.io/badge/WACV25-6a5acd)]() 
 
 + [**Object-Centric Representation Learning for Enhanced 3D Scene Graph Prediction**](https://arxiv.org/pdf/2510.04714) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/VisualScienceLab-KHU/OCRL-3DSSG-Codes.svg?style=social&label=Star)](https://github.com/VisualScienceLab-KHU/OCRL-3DSSG-Codes)
+
++ [**Social 3D Scene Graphs: Modeling Human Actions and Relations for Interactive Service Robots**](https://arxiv.org/pdf/2509.24966v1) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()
 
 + [**Statistical Confidence Rescoring for Robust 3D Scene Graph Generation from Multi-View Images**](https://arxiv.org/pdf/2508.06546)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://qixun1.github.io/projects/SCRSSG/) [![Star](https://img.shields.io/github/stars/qixun1/scrssg.svg?style=social&label=Star)](https://github.com/qixun1/scrssg)
 
@@ -1000,6 +1003,13 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 
 ## 2D/Video Scene Visual Reasoning
+
++ [**HyperVis: Continuous Latent Visual Relational Graphs on the Lorentz Hyperboloid for Compositional Reasoning**](https://arxiv.org/pdf/2606.06100) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+
+
++ [**EgoCoT-Bench: Benchmarking Grounded and Verifiable Operation-Centric Chain of Thought Reasoning for MLLMs**](https://arxiv.org/pdf/2605.19559) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+
++ [**Bridging Structure and Language: Graph-Based Visual Reasoning for Autonomous Road Understanding**]()
 
 + [**Panoptic Pairwise Distortion Graph**](https://openreview.net/attachment?id=VDfF7NqJJl&name=pdf) [![Paper](https://img.shields.io/badge/ICLR26-696969)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://aismartperception.github.io/distortion-graph/)  
 
