@@ -752,6 +752,7 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 Given a 3D point cloud $P \in R^{N×3}$ consisting of $N$ points, we assume there is a set of class-agnostic instance masks $M = \{M_1, ..., M_K\}$ corresponding to $K$ entities in $P$, `3D Scene Graph Generation` aims to map the input 3D point cloud to a reliable semantically structured scene graph $G = \{O, R\}$. 
 Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
++ [**OP3DSG: Open-Vocabulary Part-Aware 3D Scene Graph Generation for Real-World Environments**](https://arxiv.org/pdf/2606.29786) [![Paper](https://img.shields.io/badge/ECCV26-1e90ff)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://k2room.github.io/OP3DSG/)
 
 + [**KeySG: Hierarchical Keyframe-Based 3D Scene Graphs**](https://arxiv.org/abs/2510.01049) [![Paper](https://img.shields.io/badge/ICRA26-8A2BE2)]()  [![Star](https://img.shields.io/github/stars/keysg-lab/KeySG.svg?style=social&label=Star)](https://github.com/keysg-lab/KeySG)
 
@@ -1105,6 +1106,8 @@ textual features from vision-language models to visual conceptual understanding.
 
 ## 3D Scene Generation
 
++ [**Graph-GSReg: Leveraging 3D Scene Graphs for Gaussian Splatting Registration**](https://arxiv.org/pdf/2606.29782) [![Paper](https://img.shields.io/badge/ECCV26-b1e90ff)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lee-jaewon.github.io/Graph-GSReg/)
+
 + [**FlowScene: Style-Consistent Indoor Scene Generation with Multimodal Graph Rectified Flow**](https://arxiv.org/pdf/2603.19598) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 + [**SceneCritic: A Symbolic Evaluator for 3D Indoor Scene Synthesis**](https://arxiv.org/pdf/2604.13035) [![Paper](https://img.shields.io/badge//arXiv26-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lab-spell.github.io/SceneCritic/) [![Star](https://img.shields.io/github/stars/DIASENGUPTA/SceneCritic.svg?style=social&label=Star)](https://github.com/DIASENGUPTA/SceneCritic)
@@ -1321,7 +1324,7 @@ a scene and accommodate them with proper places.</details>
 
 - Traffic scene graph is constructed thought spatial location rule. For example, using BEV rules to derive triplets like `ego-vehicle, isin, lane-3`, `ego-vehicle, to right of, pedestrian-1`, and `ego-vehicle, very near, pedestrian-2`.
 
-+ [**Hazard-Aware Traffic Scene Graph Generation**](https://arxiv.org/pdf/2603.03584) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
++ [**Hazard-Aware Traffic Scene Graph Generation**](https://arxiv.org/pdf/2603.03584) [![Paper](https://img.shields.io/badge/ITSC26-b22222)]()
 
 + [**T2SG: Traffic Topology Scene Graph for Topology Reasoning in Autonomous Driving**](https://openaccess.thecvf.com/content/CVPR2025/papers/Lv_T2SG_Traffic_Topology_Scene_Graph_for_Topology_Reasoning_in_Autonomous_CVPR_2025_paper.pdf)   [![Paper](https://img.shields.io/badge/CVPR25-8A2BE2)]()   [![Star](https://img.shields.io/github/stars/MICLAB-BUPT/T2SG.svg?style=social&label=Star)](https://github.com/MICLAB-BUPT/T2SG)
 
@@ -1392,6 +1395,9 @@ a scene and accommodate them with proper places.</details>
 
 
 ## Survey
+
++ [**3D Scene Graphs: Open Challenges and Future Directions**](https://arxiv.org/pdf/2606.19383)
+
 + [**A Survey of Neurosymbolic Visual Reasoning with Scene Graphs and Common Sense Knowledge**](https://neurosymbolic-ai-journal.com/system/files/nai-paper-719.pdf)
 
 + [**Scene Graph Generation: A Comprehensive Survey**](https://arxiv.org/pdf/2201.00443)
@@ -1402,6 +1408,8 @@ a scene and accommodate them with proper places.</details>
 
 
 ## Insteresting Works
+
++ [**awesome-3D-scene-graphs**](https://github.com/DennisRotondi/awesome-3D-scene-graphs)
 
 + [**Group Visual Relation Detection**](https://ieeexplore.ieee.org/document/10906064)
 
@@ -1419,6 +1427,7 @@ a scene and accommodate them with proper places.</details>
 + [**Awesome Scene Graphs**](https://github.com/huoxingmeishi/Awesome-Scene-Graphs)
 + [**awesome-scene-graph**](https://github.com/mqjyl/awesome-scene-graph)
 + [**Awesome 3D Scene Graphs**](https://github.com/DennisRotondi/awesome-3D-scene-graphs)
+
 
 
 
