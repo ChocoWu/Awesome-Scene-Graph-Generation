@@ -776,6 +776,8 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 + [**TRACKGRAPH: Online Open-Vocabulary 3D Scene Graphs via Image-Space Tracking**](https://arxiv.org/pdf/2609.31005) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
++ [**DSG: Dynamic 3D Scene Graph Construction for Embodied Agents in Changing Indoor Environments**](https://arxiv.org/pdf/2609.00619)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+
 + [**3D Scene Graph Prediction: Generating Hierarchical Models from Partially Observed Environments**](https://arxiv.org/pdf/2607.10879) [![Paper](https://img.shields.io/badge/IROS26-b22222)]()
   <details><summary>Consider the case where a robot has explored part of an environment and needs to predict the unexplored parts to support downstream tasks such as exploration or object search.</summary> We propose a top-down framework for synthesizing hierarchical 3D scene graphs, including a room layer -- describing the floor plan and traversability -- and an object layer modeling object layouts within each room. For the room layer, we propose a novel mixed-domain graph diffusion model jointly predicting room categories, floor boundaries, and traversability between rooms. Via corruption and masking, this model supports partial constraints such as incomplete floor plans, avoiding the need for partially observed training data. For the object layer, we integrate an existing mixed discrete-continuous diffusion model for joint prediction of object categories, locations, sizes, and orientations within each room given the floor plan.</details>
 
