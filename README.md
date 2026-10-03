@@ -88,6 +88,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
   - [VLM/MLLM Enhancing](#enhanced-vlmmllm)
   - [Information Extraction](#information-extraction)
   - [3D Scene Generation](#3d-scene-generation)
+  - [4D Scene Understanding](#4d-scene-understanding)
   - [Mitigate Hallucination](#mitigate-hallucination)
   - [Dynamic Environment Guidance](#dynamic-environment-guidance)
   - [Privacy-sensitive Object Identification](#privacy-sensitive-object-identification)
@@ -256,6 +257,11 @@ Extending the above to time — moving scenes and video.
 
 ## World Model Latent Representation
 Implicit latent dynamics learned for prediction, planning, or generation — particularly relevant to the ongoing debate on whether structured scene representations are still needed (see *"Do World Models need Objects?"* in the Recent Topics above).
+
++ [**World-as-Graph: Relational World Modeling Through Latent Space Graphs**](https://arxiv.org/pdf/2609.38927) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() [![Star](https://img.shields.io/github/stars/Scarlett-Yyq/World-as-Graph.svg?style=social&label=Star)](https://github.com/Scarlett-Yyq/World-as-Graph)
+  <details><summary>A World-As-Graph model</summary>for relational world modeling through graph-based representation learning in the latent space</details>
+
++ [**WorldGraph: Graph-Native World Modeling**](https://arxiv.org/pdf/2609.34159) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 + [**Mastering Diverse Domains through World Models**](https://arxiv.org/pdf/2301.04104) [![Paper](https://img.shields.io/badge/Nature25-008080)]() [![Star](https://img.shields.io/github/stars/danijar/dreamerv3.svg?style=social&label=Star)](https://github.com/danijar/dreamerv3)
 + [**Revisiting Feature Prediction for Learning Visual Representations from Video**](https://arxiv.org/pdf/2404.08471) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/facebookresearch/jepa.svg?style=social&label=Star)](https://github.com/facebookresearch/jepa)
@@ -762,6 +768,11 @@ Given a 3D point cloud $P \in R^{N×3}$ consisting of $N$ points, we assume ther
 Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 
++ [**GraphWrit3R: End-to-End 3D Scene Graph Writing**](https://arxiv.org/pdf/2609.31595v1) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://graphwrit3r.insait.ai/)  [![Star](https://img.shields.io/github/stars/insait-institute/GraphWrit3R.svg?style=social&label=Star)](https://github.com/insait-institute/GraphWrit3R) 
+  <details><summary>End-to-end scene graph prediction and Supports different 3D inputs.</summary>GraphWrit3R accepts point clouds, 3D Gaussian Splats, or both through a unified voxel-grid fusion design and directly generates complete 3D scene graphs as structured JSON scripts.<details>
+
++ [**TRACKGRAPH: Online Open-Vocabulary 3D Scene Graphs via Image-Space Tracking**](https://arxiv.org/pdf/2609.31005) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+
 + [**3D Scene Graph Prediction: Generating Hierarchical Models from Partially Observed Environments**](https://arxiv.org/pdf/2607.10879) [![Paper](https://img.shields.io/badge/IROS26-b22222)]()
   <details><summary>Consider the case where a robot has explored part of an environment and needs to predict the unexplored parts to support downstream tasks such as exploration or object search.</summary> We propose a top-down framework for synthesizing hierarchical 3D scene graphs, including a room layer -- describing the floor plan and traversability -- and an object layer modeling object layouts within each room. For the room layer, we propose a novel mixed-domain graph diffusion model jointly predicting room categories, floor boundaries, and traversability between rooms. Via corruption and masking, this model supports partial constraints such as incomplete floor plans, avoiding the need for partially observed training data. For the object layer, we integrate an existing mixed discrete-continuous diffusion model for joint prediction of object categories, locations, sizes, and orientations within each room given the floor plan.</details>
 
@@ -1111,6 +1122,9 @@ textual features from vision-language models to visual conceptual understanding.
 
 ## 3D Scene Visual Reasoning
 
++ [**Yggdrasil: a Layer-First 3D Scene Graph for Real-Time Querying**](https://arxiv.org/pdf/2609.38640) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() 
+  <details><summary>A 3D scene graph designed to be efficient for both generation and consumption</summary>a DAG of layers, each an isolated graph, with nesting relations connecting nodes across layers that share an edge in the DAG. A typed query interface answers semantic and spatial queries against this store in place, with no intermediate conversion</details>
+
 + [**SGR3 Model: Scene Graph Retrieval-Reasoning Model in 3D**](https://arxiv.org/pdf/2603.04614)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 + [**3DGraphLLM: : Combining Semantic Graphs and Large Language Models for 3D Scene Understanding**](https://arxiv.org/pdf/2412.18450) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/CognitiveAISystems/3DGraphLLM.svg?style=social&label=Star)](https://github.com/CognitiveAISystems/3DGraphLLM)
@@ -1212,6 +1226,13 @@ textual features from vision-language models to visual conceptual understanding.
 + [**Graph-to-3D: End-to-End Generation and Manipulation of 3D Scenes Using Scene Graphs**](https://openaccess.thecvf.com/content/ICCV2021/papers/Dhamo_Graph-to-3D_End-to-End_Generation_and_Manipulation_of_3D_Scenes_Using_Scene_ICCV_2021_paper.pdf)  [![Paper](https://img.shields.io/badge/ICCV21-2f4f4f)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://he-dhamo.github.io/Graphto3D/)
 
 
+## 4D Scene Understanding
+
++ [**ChronoGraph: Functional 4D Scene Graphs with Vision-Language Models for Interaction Understanding and Grounded Planning**](https://arxiv.org/pdf/2609.39665) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+
+
+
+
 
 ## Anomaly Detection
 
@@ -1219,6 +1240,8 @@ textual features from vision-language models to visual conceptual understanding.
 + [**Scene-Specific Anomalous Relationship Detection Using Scene Graph Summarization**](https://openaccess.thecvf.com/content/CVPR2025W/VAND/html/Lai_Scene-Specific_Anomalous_Relationship_Detection_Using_Scene_Graph_Summarization_CVPRW_2025_paper.html) [![Star](https://img.shields.io/github/stars/chancharikmitra/CCoT.svg?style=social&label=Star)](https://github.com/marow17623/SARD?tab=readme-ov-file)
 
 ## Enhanced VLM/MLLM
+
++ [**Program-Verified Self-Evolution for Vision-Language Models**](https://arxiv.org/pdf/2609.33855)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 + [**Semantic Compositions Enhance Vision-Language Contrastive Learning**](https://arxiv.org/pdf/2407.01408) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
@@ -1269,6 +1292,12 @@ dataset Visual Genome (VG), from which semantic triplets follow real-world distr
 
 
 ## Dynamic Environment Guidance
+
++ [**Concurrent Semantic Search and Mission Execution for LTL Missions in Unknown Environments**](https://arxiv.org/pdf/2609.39153) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() 
+
++ [**PORTER: Edge-Cloud Residency for Persistent 3D Scene Graph Memory**](https://arxiv.org/pdf/2609.33258)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() 
+
++ [**Scanning While Imagining: A Scene-Graph World Model for Robotic Ultrasound Navigation**](https://arxiv.org/pdf/2609.32837)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 + [**MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning**](https://openreview.net/pdf?id=3eTr9dGwJv)  [![Paper](https://img.shields.io/badge/ICLR26-696969)]()  [![Star](https://img.shields.io/github/stars/HybridRobotics/MomaGraph.svg?style=social&label=Star)](https://github.com/HybridRobotics/MomaGraph) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)]([real-stanford/semantic-abstraction](https://hybridrobotics.github.io/MomaGraph/))
 
@@ -1357,6 +1386,8 @@ a scene and accommodate them with proper places.</details>
 
 - Traffic scene graph is constructed thought spatial location rule. For example, using BEV rules to derive triplets like `ego-vehicle, isin, lane-3`, `ego-vehicle, to right of, pedestrian-1`, and `ego-vehicle, very near, pedestrian-2`.
 
++ [**From Scene Graphs to Answers: Selective Neuro-Symbolic Reasoning for Autonomous Driving**](https://arxiv.org/pdf/2609.32645)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+
 + [**Hazard-Aware Traffic Scene Graph Generation**](https://arxiv.org/pdf/2603.03584) [![Paper](https://img.shields.io/badge/ITSC26-b22222)]()
 
 + [**T2SG: Traffic Topology Scene Graph for Topology Reasoning in Autonomous Driving**](https://openaccess.thecvf.com/content/CVPR2025/papers/Lv_T2SG_Traffic_Topology_Scene_Graph_for_Topology_Reasoning_in_Autonomous_CVPR_2025_paper.pdf)   [![Paper](https://img.shields.io/badge/CVPR25-8A2BE2)]()   [![Star](https://img.shields.io/github/stars/MICLAB-BUPT/T2SG.svg?style=social&label=Star)](https://github.com/MICLAB-BUPT/T2SG)
@@ -1441,6 +1472,8 @@ a scene and accommodate them with proper places.</details>
 
 
 ## Insteresting Works
+
++ [**CAST: Causal Advantage-Structured Training with Spatially Grounded Compositional Rewards for Diffusion Models**](https://arxiv.org/pdf/2609.39441)
 
 + [**awesome-3D-scene-graphs**](https://github.com/DennisRotondi/awesome-3D-scene-graphs)
 
