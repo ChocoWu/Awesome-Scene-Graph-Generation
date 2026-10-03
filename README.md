@@ -232,6 +232,9 @@ Continuous fields parameterized by neural networks — coordinates in, signal ou
 ## Explicit 3D Representation
 Discrete geometric primitives — points, meshes, splats.
 
++ [**Probabilistic Scene Graphs: Hierarchical Representation and Real-time System**](https://arxiv.org/pdf/2609.23144) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() 
+  <details><summary>Probabilistic Scene Graph (PSG)</summary>A generalization of the conventional scene graph that represents a posterior over possible graphs, factorized into a discrete graph structure of entities, relations, and semantic attributes, and continuous states that ground them spatially, with uncertainty maintained over both components. </details>
+
 + [**Mip-Splatting: Alias-free 3D Gaussian Splatting**](https://arxiv.org/pdf/2311.16493) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/autonomousvision/mip-splatting.svg?style=social&label=Star)](https://github.com/autonomousvision/mip-splatting)
 + [**3D Gaussian Splatting for Real-Time Radiance Field Rendering**](https://arxiv.org/pdf/2308.04079) [![Paper](https://img.shields.io/badge/SIGGRAPH23-2E8B57)]() [![Star](https://img.shields.io/github/stars/graphdeco-inria/gaussian-splatting.svg?style=social&label=Star)](https://github.com/graphdeco-inria/gaussian-splatting)
 + [**Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images**](https://arxiv.org/pdf/1804.01654) [![Paper](https://img.shields.io/badge/ECCV18-1e90ff)]() [![Star](https://img.shields.io/github/stars/nywang16/Pixel2Mesh.svg?style=social&label=Star)](https://github.com/nywang16/Pixel2Mesh)
@@ -1049,6 +1052,12 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 ## 2D/Video Scene Visual Reasoning
 
++ [**CinematicVQA: Benchmarking Film-Grammar Reasoning in Large Vision-Language Models**](https://arxiv.org/pdf/2609.28813)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+  <details><summary>Cinematic Scene Graph (CSG)</summary>, a structured representation that links filming techniques to their perceptual effects and narrative functions.</details>
+
++ [**Benchmarking MLLMs via Cognitive Expected Scene Graph for Safety-Critical Visual Negation Understanding**](https://arxiv.org/pdf/2609.19767)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+  <details><summary>Cognitive Expected Scene Graph (CESG)</summary>Unlike traditional scene graphs (SGs) mapping merely factual presence, the structurally grounded CESG inherently instills polarity awareness by explicitly encoding negative semantics into counterfactual object-attribute-relation topologies of visual scenes. </details>
+
 + [**HyperVis: Continuous Latent Visual Relational Graphs on the Lorentz Hyperboloid for Compositional Reasoning**](https://arxiv.org/pdf/2606.06100) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 
@@ -1125,6 +1134,10 @@ textual features from vision-language models to visual conceptual understanding.
 + [**Yggdrasil: a Layer-First 3D Scene Graph for Real-Time Querying**](https://arxiv.org/pdf/2609.38640) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() 
   <details><summary>A 3D scene graph designed to be efficient for both generation and consumption</summary>a DAG of layers, each an isolated graph, with nesting relations connecting nodes across layers that share an edge in the DAG. A typed query interface answers semantic and spatial queries against this store in place, with no intermediate conversion</details>
 
++ [**Hierarchical Aggregation of Semantic Uncertainty in 3D Scene Graphs**](https://arxiv.org/pdf/2609.22351) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() 
+
++ [**SnapPhysics: A Physics-Aware Scene Graph from a Single View for Interactive Mixed Reality Scenes**](https://arxiv.org/pdf/2609.19815)   [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() 
+
 + [**SGR3 Model: Scene Graph Retrieval-Reasoning Model in 3D**](https://arxiv.org/pdf/2603.04614)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 + [**3DGraphLLM: : Combining Semantic Graphs and Large Language Models for 3D Scene Understanding**](https://arxiv.org/pdf/2412.18450) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Star](https://img.shields.io/github/stars/CognitiveAISystems/3DGraphLLM.svg?style=social&label=Star)](https://github.com/CognitiveAISystems/3DGraphLLM)
@@ -1150,6 +1163,9 @@ textual features from vision-language models to visual conceptual understanding.
 
 
 ## 3D Scene Generation
+
++ [**ESG: Generating Physically Consistent Dynamic 3D Scenes from Text Descriptions**](https://arxiv.org/pdf/2609.15392v1)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() 
+  <details><summary>Evolutive Scene Graph (ESG)</summary>, which specifies entities with physical attributes, spatial relations, and event-driven timelines in a machine-checkable form. Given a prompt, a large language model constructs and validates a complete ESG; spatial layouts are grounded via energy-minimized gradient optimization; timeline-constrained physical parameters are then optimized through differentiable simulation to satisfy user-specified events; and the resulting scene is compiled into an engine-executable class.</details>
 
 + [**CinemaTraj: Composing Atomic Camera Trajectories for 3D Scenes with LLM Agents**](https://arxiv.org/pdf/2607.26910) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://cinematraj.github.io/)
 
@@ -1243,6 +1259,8 @@ textual features from vision-language models to visual conceptual understanding.
 
 + [**Program-Verified Self-Evolution for Vision-Language Models**](https://arxiv.org/pdf/2609.33855)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
++ [**CS-CLIP: Compositional Scene Graph-guided CLIP for Robust Compositional Reasoning**](https://arxiv.org/pdf/2609.08242)  [![Paper](https://img.shields.io/badge/EMNLP26-191970)]()
+
 + [**Semantic Compositions Enhance Vision-Language Contrastive Learning**](https://arxiv.org/pdf/2407.01408) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
 + [**Compositional Chain-of-Thought Prompting for Large Multimodal Models**](https://arxiv.org/pdf/2311.17076) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/chancharikmitra/CCoT.svg?style=social&label=Star)](https://github.com/chancharikmitra/CCoT)
@@ -1298,6 +1316,10 @@ dataset Visual Genome (VG), from which semantic triplets follow real-world distr
 + [**PORTER: Edge-Cloud Residency for Persistent 3D Scene Graph Memory**](https://arxiv.org/pdf/2609.33258)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() 
 
 + [**Scanning While Imagining: A Scene-Graph World Model for Robotic Ultrasound Navigation**](https://arxiv.org/pdf/2609.32837)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+
++ [**Hierarchical Floorplan-Guided Vision-Language Exploration for Embodied Question Answering**](https://arxiv.org/pdf/2609.26360v1) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+
++ [**A Topological Representation with Object-Path Graphs for Open-Vocabulary Instance Navigation**](https://arxiv.org/pdf/2609.24189)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
 
 + [**MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning**](https://openreview.net/pdf?id=3eTr9dGwJv)  [![Paper](https://img.shields.io/badge/ICLR26-696969)]()  [![Star](https://img.shields.io/github/stars/HybridRobotics/MomaGraph.svg?style=social&label=Star)](https://github.com/HybridRobotics/MomaGraph) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)]([real-stanford/semantic-abstraction](https://hybridrobotics.github.io/MomaGraph/))
 
