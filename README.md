@@ -169,6 +169,10 @@ Here, we provide some toolkits for parsing scene graphs or other useful tools fo
 
 + [**SGG-Annotate**](https://github.com/Maelic/SGG-Annotate) [![Star](https://img.shields.io/github/stars/Maelic/SGG-Annotate.svg?style=social&label=Star)](https://github.com/Maelic/SGG-Annotate)
   <details><summary>Scene Graph Annotation tool</summary>A modern annotation tool for annotating visual relationships in COCO format.</details>
+
++ [**RelateAnything🙆‍♀️👈**](https://github.com/Maelic/RelateAnything)  [![Star](https://img.shields.io/github/stars/Maelic/RelateAnything.svg?style=social&label=Star)](https://github.com/Maelic/RelateAnything)
+  <details><summary>Real-time open-vocabulary relation prediction from any inputs</summary>Give RelateAnything an image, object regions, and the relations you want to look for.</details>
+
 ---
 
 <!-- CVPR-8A2BE2 -->
