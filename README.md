@@ -7,19 +7,19 @@
 
 - We have released a new [OmniSG](https://github.com/scene-graph/OmniSG) parser, providing a unified toolkit for **text, image, video, and 3D scene graph parsing**, together with a **Web UI demo** and **evaluation scripts**. Feel free to try it out — contributions and PRs are very welcome!
 
-- We're always happy to connect with people interested in these topics and explore potential collaborationswhether for future workshops, research projects, or simply exchanging ideas. Feel free to reach out!
+- We're always happy to connect with people interested in these topics and explore potential collaborations whether for future workshops, research projects, or simply exchanging ideas. Feel free to reach out!
 
-- We release a new Video Scene Graph annotators at [VSG-Annotator](https://github.com/scene-graph/VSG-Annotator/), any comments and feedback are welcomed.
+- We have released a new video scene graph annotation tool, [VSG-Annotator](https://github.com/scene-graph/VSG-Annotator/). Comments and feedback are welcome!
 
 - We have released a new project website that brings together all of our scene graph-related works. Feel free to follow our updates at [Scene Graph Series](https://scene-graph.github.io/).
 
 
-- ✨✨✨Thanks everyone for joining the **WACV26 Workshop** on [Scene Graph for Structured Intelligence](https://scene-graph.github.io/SG4SI-WACV26/).
+- ✨✨✨ Thanks everyone for joining the **WACV26 Workshop** on [Scene Graph for Structured Intelligence](https://scene-graph.github.io/SG4SI-WACV26/).
 
 
-- We're excited to introduce a new section:🔥 Hot Topics 🔥!
+- We're excited to introduce a new section: 🔥 Hot Topics 🔥!
 
-  We'll regularly post interesting discussion topics in the Issues tab. If you're interested, feel free to jump in and share your thoughts! These discussions are purely for idea exchange and community engagement 
+  We'll regularly post interesting discussion topics in the Issues tab. If you're interested, feel free to jump in and share your thoughts! These discussions are intended for exchanging ideas and engaging with the community. 
 
   I'll also be collecting and sharing thought-provoking questions related to the future of scene graphs and scene understanding in general. Everyone is welcome to join the conversation!
 
@@ -29,7 +29,7 @@
   Scene graphs are a form of explicit scene representation. But with the rise of implicit scene representations, is this approach still effective? Which representation is more promising moving forward?
 
   ```
-  "vision" is only well-defined as part of perception-action loops, and that the conventional view of computer vision - mapping imagery to intermediate representations (3D, flow, segmentation...) is about to go away. 
+  "vision" is only well-defined as part of perception-action loops, and that the conventional view of computer vision - mapping imagery to intermediate representations (3D, flow, segmentation...) is about to go away.
   - Vincent Sitzmann
   ```
 
@@ -58,7 +58,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 ---
 
 # 📕 Table of Contents
-- [🌷 Scene Graph Datasets](#-datasets)
+- [🌷 Scene Graph Datasets](#-scene-graph-datasets)
 - [🧩 Scene Representation](#-scene-representation)
   - [Patch & Token Representation](#patch--token-representation)
   - [Object-centric / Slot-based Representation](#object-centric--slot-based-representation)
@@ -74,13 +74,13 @@ In this graph, the nodes correspond to object bounding boxes with their category
   - [Spatio-Temporal (Video) Scene Graph Generation](#spatio-temporal-video-scene-graph-generation)
   - [Audio Scene Graph Generation](#audio-scene-graph-generation)
   - [3D Scene Graph Generation](#3d-scene-graph-generation)
-  - [4D Scene Graph Gnereation](#4d-scene-graph-gnereation)
+  - [4D Scene Graph Generation](#4d-scene-graph-generation)
   - [Textual Scene Graph Generation](#textual-scene-graph-generation)
   - [Map Space Scene Graph](#map-space-scene-graph)
   - [Universal Scene Graph Generation](#universal-scene-graph-generation)
   - [World Scene Graph Generation](#world-scene-graph-generation)
 - [🥝 Scene Graph Application](#-scene-graph-application)
-  - [Image Retrieval](#imagevideo-retrieval)
+  - [Image/Video Retrieval](#imagevideo-retrieval)
   - [Image/Video Caption](#imagevideo-caption)
   - [2D Image Generation](#2d-image-generation)
   - [2D/Video Visual Reasoning](#2dvideo-scene-visual-reasoning)
@@ -153,7 +153,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 
 
 ## Toolkit
-Here, we provide some toolkits for parsing scene graphs or other useful tools for referencess.
+The following toolkits support scene graph parsing, generation, benchmarking, and annotation.
 
 
 + [**Stanford Scene Graph Parser**](https://nlp.stanford.edu/software/scenegraph-parser.shtml)
@@ -874,7 +874,7 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 
 
-## 4D Scene Graph Gnereation
+## 4D Scene Graph Generation
 
 + [**EgoExOR: An Ego-Exo-Centric Operating Room Dataset for Surgical Activity Understanding**](https://arxiv.org/pdf/2505.24287)  ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/ardamamur/EgoExOR.svg?style=social&label=Star)](https://github.com/ardamamur/EgoExOR) 
 
