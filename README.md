@@ -381,7 +381,9 @@ There are three subtasks:
 
 + [**Salience-SGG: Enhancing Unbiased Scene Graph Generation with Iterative Salience Estimation**](https://arxiv.org/pdf/2601.08728) [![Paper](https://img.shields.io/badge/WACV25-6a5acd)]() [![Star](https://img.shields.io/github/stars/runfeng-q/Salience-SGG.svg?style=social&label=Star)](https://github.com/runfeng-q/Salience-SGG)  
 
-+ [**Interaction-Centric Knowledge Infusion and Transfer for Open-Vocabulary Scene Graph Generation**](https://arxiv.org/pdf/2511.05935) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]()  
++ [**Interaction-Centric Knowledge Infusion and Transfer for Open-Vocabulary Scene Graph Generation**](https://arxiv.org/pdf/2511.05935) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]()  [![Star](https://img.shields.io/github/stars/HKUST-LongGroup/ACC.svg?style=social&label=Star)](https://github.com/HKUST-LongGroup/ACC)  
+
+
 
 + [**Vision-Language Interactive Relation Mining for Open-Vocabulary Scene Graph Generation**](https://openaccess.thecvf.com/content/ICCV2025/papers/Min_Vision-Language_Interactive_Relation_Mining_for_Open-Vocabulary_Scene_Graph_Generation_ICCV_2025_paper.pdf)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Star](https://img.shields.io/github/stars/myukzzz/VL-IRM.svg?style=social&label=Star)](https://github.com/myukzzz/VL-IRM)
 
@@ -651,7 +653,7 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 + [**SceneGraphVLM: Dynamic Scene Graph Generation from Video with Vision-Language Models**](https://arxiv.org/pdf/2605.13667) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()  [![Star](https://img.shields.io/github/stars/markus0440/SceneGraphVLM.svg?style=social&label=Star)](https://github.com/markus0440/SceneGraphVLM)
   <details><summary>R1-based method</summary>SceneGraphVLM serializes graphs in a token-efficient TOON format and trains the model in two stages: supervised fine-tuning followed by reinforcement learning with hallucination-aware rewards that balance relation coverage and precision while penalizing unsupported objects and relations. For videos, the model can optionally condition each frame on the previously generated graph, providing lightweight short-term context without tracking or post-processing.</details>
 
-+ [**ESCA: Contextualizing Embodied Agents via Scene-Graph Generation**](https://arxiv.org/pdf/2510.15963) [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/video-fm/ESCA.svg?style=social&label=Star)](https://github.com/video-fm/ESCA)
++ [**ESCA: Contextualizing Embodied Agents via Scene-Graph Generation**](https://arxiv.org/pdf/2510.15963) [![Paper](https://img.shields.io/badge/NIPS26-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/video-fm/ESCA.svg?style=social&label=Star)](https://github.com/video-fm/ESCA)
 
 + [**LASER: A Neuro-Symbolic Framework for Learning Spatial-Temporal Scene Graphs with Weak Supervision**](https://arxiv.org/pdf/2304.07647)  [![Paper](https://img.shields.io/badge/ICLR25-696969)]()  [![Star](https://img.shields.io/github/stars/video-fm/LASER.svg?style=social&label=Star)](https://github.com/video-fm/LASER)
 
@@ -1058,6 +1060,8 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 ## 2D/Video Scene Visual Reasoning
 
++ [**SceneAlign: Aligning Multimodal Reasoning to Scene Graphs in Complex Visual Scenes**](https://aclanthology.org/2026.acl-long.779.pdf) [![Paper](https://img.shields.io/badge/ACL26-191970)]()
+
 + [**CinematicVQA: Benchmarking Film-Grammar Reasoning in Large Vision-Language Models**](https://arxiv.org/pdf/2609.28813)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
   <details><summary>Cinematic Scene Graph (CSG)</summary>, a structured representation that links filming techniques to their perceptual effects and narrative functions.</details>
 
@@ -1178,6 +1182,8 @@ textual features from vision-language models to visual conceptual understanding.
 + [**Graph-GSReg: Leveraging 3D Scene Graphs for Gaussian Splatting Registration**](https://arxiv.org/pdf/2606.29782) [![Paper](https://img.shields.io/badge/ECCV26-b1e90ff)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lee-jaewon.github.io/Graph-GSReg/)
 
 + [**FlowScene: Style-Consistent Indoor Scene Generation with Multimodal Graph Rectified Flow**](https://arxiv.org/pdf/2603.19598) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]()
+
++ [**3-D Scene Graphs in Robotics: A Unified Representation Bridging Geometry, Semantics, and Action**](https://ieeexplore.ieee.org/abstract/document/11680567) [![Paper](https://img.shields.io/badge//TOR26-b22222)]()
 
 + [**SceneCritic: A Symbolic Evaluator for 3D Indoor Scene Synthesis**](https://arxiv.org/pdf/2604.13035) [![Paper](https://img.shields.io/badge//arXiv26-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lab-spell.github.io/SceneCritic/) [![Star](https://img.shields.io/github/stars/DIASENGUPTA/SceneCritic.svg?style=social&label=Star)](https://github.com/DIASENGUPTA/SceneCritic)
 
@@ -1317,6 +1323,11 @@ dataset Visual Genome (VG), from which semantic triplets follow real-world distr
 
 ## Dynamic Environment Guidance
 
++ [**MSGNav: Unleashing the Power of Multi-modal 3D Scene Graph for Zero-Shot Embodied Navigation**](https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_MSGNav_Unleashing_the_Power_of_Multi-modal_3D_Scene_Graph_for_CVPR_2026_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR26-8A2BE2)]() [![Star](https://img.shields.io/github/stars/ylwhxht/MSGNav.svg?style=social&label=Star)](https://github.com/ylwhxht/MSGNav)
+
+
++ [**Compose by Focus: Scene Graph-based Atomic Skills**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11696519)  [![Paper](https://img.shields.io/badge/ICRA26-b22222)]()
+
 + [**Concurrent Semantic Search and Mission Execution for LTL Missions in Unknown Environments**](https://arxiv.org/pdf/2609.39153) [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() 
 
 + [**PORTER: Edge-Cloud Residency for Persistent 3D Scene Graph Memory**](https://arxiv.org/pdf/2609.33258)  [![Paper](https://img.shields.io/badge/arXiv26-b22222)]() 
@@ -1340,8 +1351,7 @@ anchor local dynamic graphs Gd to global static graph.</details>
 + [**GraSP-VLA: Graph-based Symbolic Action Representation for Long-Horizon Planning with VLA Policies**](https://arxiv.org/pdf/2511.04357)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() <details><summary>A Continuous Scene Graph representation</summary>a framework that uses a Continuous Scene Graph representation to generate a symbolic representation of human demonstrations. This representation is used to generate new planning domains during inference and serves as an orchestrator for low-level VLA policies, scaling up the number of actions that can be reproduced in a row. </details>
 
 
-
-+ [**Open-World 3D Scene Graph Generation for Retrieval-Augmented Reasoning**](https://arxiv.org/pdf/2511.05894) [![Paper](https://img.shields.io/badge/AAAI25-191970)]() 
++ [**Open-World 3D Scene Graph Generation for Retrieval-Augmented Reasoning**](https://arxiv.org/pdf/2511.05894) [![Paper](https://img.shields.io/badge/AAAI26-191970)]() 
 
 + [**Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors Enables Dynamic Scene Understanding**](https://www.arxiv.org/abs/2501.00358)  [![Paper](https://img.shields.io/badge/ICCV25-2f4f4f)]()  [![Star](https://img.shields.io/github/stars/Embodied-VideoAgent/embodied-videoagent.svg?style=social&label=Star)](https://github.com/Embodied-VideoAgent/embodied-videoagent) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)]([real-stanford/semantic-abstraction](https://embodied-videoagent.github.io/))
 
