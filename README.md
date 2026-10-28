@@ -1511,6 +1511,8 @@ a scene and accommodate them with proper places.</details>
 
 ## Insteresting Works
 
++ [**An Information-Space Perspective to Scene Graph Sufficiency for Robotic Task Planning**](https://arxiv.org/pdf/2609.15587)
+
 + [**CAST: Causal Advantage-Structured Training with Spatially Grounded Compositional Rewards for Diffusion Models**](https://arxiv.org/pdf/2609.39441)
 
 + [**awesome-3D-scene-graphs**](https://github.com/DennisRotondi/awesome-3D-scene-graphs)
